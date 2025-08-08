@@ -61,3 +61,6 @@ menu:
   #   - name: "Hugo Docs ↗"
   #     url: "https://gohugo.io/documentation/"
   #     weight: 3
+caches:
+  images:
+    dir: :cacheDir/images
