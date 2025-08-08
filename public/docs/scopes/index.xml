@@ -1,0 +1,217 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CineMon - Professional video monitor for iOS and Mac – Scopes</title>
+    <link>http://localhost:1313/docs/scopes/</link>
+    <description>Recent content in Scopes on CineMon - Professional video monitor for iOS and Mac</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	  <atom:link href="http://localhost:1313/docs/scopes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Histogram</title>
+      <link>http://localhost:1313/docs/scopes/histogram/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/scopes/histogram/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;1  Overview / Purpose &amp;amp; Usage&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1--overview-purpose-usage&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1--overview-purpose-usage&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The &lt;strong&gt;Histogram&lt;/strong&gt; graphs how many pixels sit at each brightness value, offering an at‑a‑glance sanity check that highlights aren’t clipping and shadows aren’t crushed.  Activate it from the Scopes bar; the floating window can be pinched to any size or double‑tapped for full‑screen.&lt;/p&gt;
+&lt;h2&gt;2  Options &amp;amp; Modes&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2--options-modes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2--options-modes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Mode&lt;/th&gt;
+          &lt;th&gt;What It Shows&lt;/th&gt;
+          &lt;th&gt;Typical Usage&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Luma&lt;/td&gt;
+          &lt;td&gt;Y′ only&lt;/td&gt;
+          &lt;td&gt;Quick exposure gauge.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;RGB Overlay&lt;/td&gt;
+          &lt;td&gt;Single trace, colour‑coded&lt;/td&gt;
+          &lt;td&gt;Channel balance in one glance.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;RGB Stacked&lt;/td&gt;
+          &lt;td&gt;Three individual traces&lt;/td&gt;
+          &lt;td&gt;Pinpoint per‑channel clipping.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Trace Gain&lt;/td&gt;
+          &lt;td&gt;0 – +12 dB&lt;/td&gt;
+          &lt;td&gt;Boost low‑contrast scenes.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Reticle Colour&lt;/td&gt;
+          &lt;td&gt;Any&lt;/td&gt;
+          &lt;td&gt;Match ambient light.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Background Alpha&lt;/td&gt;
+          &lt;td&gt;0 – 100 %&lt;/td&gt;
+          &lt;td&gt;Fade scope to minimise distraction.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Switching between &lt;strong&gt;Luma&lt;/strong&gt; and &lt;strong&gt;RGB&lt;/strong&gt; is immediate; CineMon maintains history so when you return to RGB you pick up right where you left off.  Increasing &lt;strong&gt;Trace Gain&lt;/strong&gt; can reveal subtle mid‑tone detail on Log footage that otherwise hugs the floor.&lt;/p&gt;
+&lt;h2&gt;3  Tips, Best Practices &amp;amp; Use‑Cases&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3--tips-best-practices-usecases&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3--tips-best-practices-usecases&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Full‑screen Histogram mode on a reference OLED makes an unbeatable lighting briefing tool: slide the lights until the histogram bell curve centres around 40–60 IRE, guaranteeing the grade has wiggle room.  Pair RGB Stacked with &lt;strong&gt;Display LUT Bypass&lt;/strong&gt; to watch how the grade shifts distribution—useful when teaching new ACs about colour science.&lt;/p&gt;
+&lt;h2&gt;4  Related Topics&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4--relatedtopics&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4--relatedtopics&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;waveform.md&#34; &gt;&lt;code&gt;waveform.md&lt;/code&gt;&lt;/a&gt; – spatial exposure view&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../../tools/zebras.md&#34; &gt;&lt;code&gt;zebras.md&lt;/code&gt;&lt;/a&gt; – overlay clipping warnings on top of the live picture&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Waveform</title>
+      <link>http://localhost:1313/docs/scopes/waveform/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/scopes/waveform/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;1  Overview / Purpose &amp;amp; Usage&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1--overview-purpose-usage&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1--overview-purpose-usage&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Where the Histogram shows how &lt;em&gt;much&lt;/em&gt; brightness exists, the &lt;strong&gt;Waveform&lt;/strong&gt; shows &lt;em&gt;where&lt;/em&gt; that brightness sits across the image width.  Activate via the Scopes bar; the scope appears as a strip you can resize or full‑screen.  Shadows anchor at the bottom of the graph, highlights at the top, so a rising coastline indicates a bright sky across the top of frame.&lt;/p&gt;
+&lt;h2&gt;2  Options &amp;amp; Modes&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2--options-modes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2--options-modes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Option&lt;/th&gt;
+          &lt;th&gt;Choices&lt;/th&gt;
+          &lt;th&gt;Intended Use&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Display Type&lt;/td&gt;
+          &lt;td&gt;Luma, Colourized Luma, RGB, RGB Parade&lt;/td&gt;
+          &lt;td&gt;Progressive detail for exposure and balance.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Instant Extents&lt;/td&gt;
+          &lt;td&gt;Toggle&lt;/td&gt;
+          &lt;td&gt;Overlays min/max envelope—great for flickering lights.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Trace Brightness&lt;/td&gt;
+          &lt;td&gt;0 – 100 %&lt;/td&gt;
+          &lt;td&gt;Brighten trace on sunny sets.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Background Alpha&lt;/td&gt;
+          &lt;td&gt;0 – 100 %&lt;/td&gt;
+          &lt;td&gt;Fade background so image shows through.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Colourized Luma&lt;/strong&gt; keeps luma shape but colours pixels by hue—ideal for spotting colour contamination in gradients.  &lt;strong&gt;RGB Parade&lt;/strong&gt; separates channels so you can ride white‑balance: align the three waveforms and neutrals snap into place.&lt;/p&gt;
+&lt;h2&gt;3  Tips, Best Practices &amp;amp; Use‑Cases&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3--tips-best-practices-usecases&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3--tips-best-practices-usecases&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Keying a talking‑head against a window?  Watch the right side of the waveform: if highlights scrape 100 IRE while the face hovers at 50, you know contrast is within broadcast safe.  For music videos, enable &lt;strong&gt;Instant Extents&lt;/strong&gt;; flashing LEDs produce a bright envelope that warns how far peaks reach, without cluttering the main trace.&lt;/p&gt;
+&lt;h2&gt;4  Related Topics&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4--relatedtopics&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4--relatedtopics&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;histogram.md&#34; &gt;&lt;code&gt;histogram.md&lt;/code&gt;&lt;/a&gt; – statistical companion&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;vectorscope.md&#34; &gt;&lt;code&gt;vectorscope.md&lt;/code&gt;&lt;/a&gt; – chroma balance after luma is locked&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Vectorscope</title>
+      <link>http://localhost:1313/docs/scopes/vectorscope/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/scopes/vectorscope/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;1  Overview / Purpose &amp;amp; Usage&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1--overview-purpose-usage&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1--overview-purpose-usage&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The &lt;strong&gt;Vectorscope&lt;/strong&gt; maps hue and saturation onto a polar graph: angle equals hue, distance equals saturation.  Enable it from the Scopes bar; a circular plot appears, complete with skin‑tone line at roughly 11 degrees.  Drag the scope or full‑screen it for colour‑critical work.&lt;/p&gt;
+&lt;h2&gt;2  Options &amp;amp; Modes&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2--options-modes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2--options-modes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Option&lt;/th&gt;
+          &lt;th&gt;Choices&lt;/th&gt;
+          &lt;th&gt;Use Case&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Display&lt;/td&gt;
+          &lt;td&gt;Mono, Colour&lt;/td&gt;
+          &lt;td&gt;Mono for clean shape; Colour for teaching hue angles.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Targets&lt;/td&gt;
+          &lt;td&gt;Boxes, Polar Grid, ×2 Markers&lt;/td&gt;
+          &lt;td&gt;Guides for legal and oversaturated levels.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Extents&lt;/td&gt;
+          &lt;td&gt;Toggle&lt;/td&gt;
+          &lt;td&gt;Shows envelope of flashing colours.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Trace Brightness&lt;/td&gt;
+          &lt;td&gt;0 – 100 %&lt;/td&gt;
+          &lt;td&gt;Visibility control.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Enabling &lt;strong&gt;Targets&lt;/strong&gt; reveals broadcast boxes (75 % sat), while &lt;strong&gt;×2 Markers&lt;/strong&gt; double their radius, helping judge HDR grade overshoot.  &lt;strong&gt;Extents&lt;/strong&gt; is invaluable under concert strobes: saturation spikes are drawn as a faint ghost beyond the steady trace, highlighting where neons risk gamut clipping.&lt;/p&gt;
+&lt;h2&gt;3  Tips, Best Practices &amp;amp; Use‑Cases&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3--tips-best-practices-usecases&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3--tips-best-practices-usecases&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Place a colour chart in frame; switch to &lt;strong&gt;Colour&lt;/strong&gt; mode and twist the camera’s white‑balance until the grey chip sits on the centre dot—instant neutral.  To monitor skin, keep an eye on the 11 degree line: as long as the blob touches it, complexions look natural even with funky lighting.&lt;/p&gt;
+&lt;h2&gt;4  Related Topics&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4--relatedtopics&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4--relatedtopics&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../../tools/false-color.md&#34; &gt;&lt;code&gt;false-color.md&lt;/code&gt;&lt;/a&gt; – exposure colour mapping that complements hue mapping&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../../tools/display-lut.md&#34; &gt;&lt;code&gt;display-lut.md&lt;/code&gt;&lt;/a&gt; – swap LUTs and watch the vectorscope adjust&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Quad Scope View</title>
+      <link>http://localhost:1313/docs/scopes/quad-scope/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/scopes/quad-scope/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;1  Overview / Purpose &amp;amp; Usage&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1--overview-purpose-usage&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1--overview-purpose-usage&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Sometimes you need every scope at once.  The &lt;strong&gt;Quad Scope View&lt;/strong&gt; arranges Waveform, Vectorscope, Histogram, and Parade into a 2 × 2 grid with one tap of the Quad icon.  The layout is fixed so your muscle memory knows exactly where to glance for luma vs chroma.&lt;/p&gt;
+&lt;h2&gt;2  Options &amp;amp; Modes&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2--options-modes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2--options-modes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Each individual scope retains its own settings—double‑tap the Histogram quadrant to switch from Luma to RGB; CineMon updates just that window.  Trace brightness and background alpha obey the values you last set in floating mode.&lt;/p&gt;
+&lt;h2&gt;3  Tips, Best Practices &amp;amp; Use‑Cases&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3--tips-best-practices-usecases&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3--tips-best-practices-usecases&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;DIT carts often park an iPad in Quad mode and mirror it via Sidecar to a MacBook, giving clients the hero image while the DIT views scopes.  When switching back to floating scopes CineMon restores their last positions, so your customised waveform width isn’t lost.&lt;/p&gt;
+&lt;h2&gt;4  Related Topics&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4--relatedtopics&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4--relatedtopics&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;waveform.md&#34; &gt;&lt;code&gt;waveform.md&lt;/code&gt;&lt;/a&gt; – one of the quadrants&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../../gestures.md&#34; &gt;&lt;code&gt;gestures.md&lt;/code&gt;&lt;/a&gt; – pinch to resize when scopes float&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

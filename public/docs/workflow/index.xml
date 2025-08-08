@@ -1,0 +1,18 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CineMon - Professional video monitor for iOS and Mac – Sidebar</title>
+    <link>http://localhost:1313/docs/workflow/</link>
+    <description>Recent content in Sidebar on CineMon - Professional video monitor for iOS and Mac</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	  <atom:link href="http://localhost:1313/docs/workflow/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+  </channel>
+</rss>

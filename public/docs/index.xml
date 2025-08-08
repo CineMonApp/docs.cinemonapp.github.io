@@ -1,0 +1,1501 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CineMon - Professional video monitor for iOS and Mac – CineMon Documentation</title>
+    <link>http://localhost:1313/docs/</link>
+    <description>Recent content in CineMon Documentation on CineMon - Professional video monitor for iOS and Mac</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	  <atom:link href="http://localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Getting Started</title>
+      <link>http://localhost:1313/docs/getting-started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/getting-started/</guid>
+      <description>
+        
+        
+        &lt;h1&gt;Getting Started with CineMon&lt;/h1&gt;&lt;p&gt;Welcome!
+In the next few minutes you’ll turn an iPad, iPhone, or Mac into a fully featured cinema monitor complete with scopes and exposure tools. This guide walks you through &lt;strong&gt;installation&lt;/strong&gt;, &lt;strong&gt;hardware setup&lt;/strong&gt;, and &lt;strong&gt;first-run orientation&lt;/strong&gt; so you can begin shooting with confidence.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;1. System Requirements&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1-system-requirements&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-system-requirements&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Device&lt;/th&gt;
+          &lt;th&gt;Minimum OS&lt;/th&gt;
+          &lt;th&gt;Recommended&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;iPad / iPhone&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;iPadOS / iOS 16.0&lt;/td&gt;
+          &lt;td&gt;iPad Pro M-series or iPhone 15 Pro for 4K60 passthrough&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Mac&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;macOS 13 (Ventura)&lt;/td&gt;
+          &lt;td&gt;Apple Silicon Mac for lowest latency&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;A USB-C port is required on iPad for UVC capture. Macs can use USB-C &lt;strong&gt;or&lt;/strong&gt; Thunderbolt.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;2. Installing CineMon&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2-installing-cinemon&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-installing-cinemon&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;iPad / iPhone&lt;/strong&gt;
+&lt;em&gt;Open the App Store ➜ search “CineMon” ➜ tap &lt;strong&gt;Get&lt;/strong&gt; ➜ wait for the download to finish.&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Mac&lt;/strong&gt;
+&lt;em&gt;Download the signed &lt;code&gt;.dmg&lt;/code&gt; from &lt;a href=&#34;https://www.cinemon.app/download&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.cinemon.app/download&lt;/a&gt; ➜ drag the CineMon icon into &lt;strong&gt;Applications&lt;/strong&gt; ➜ launch once to clear Gatekeeper.&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2&gt;3. Choosing a Capture Interface&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3-choosing-a-capture-interface&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3-choosing-a-capture-interface&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Most modern cameras output HDMI (and some SDI). CineMon receives these signals via &lt;strong&gt;UVC-class&lt;/strong&gt; devices—the same plug-and-play protocol webcams use.&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Capture Brand&lt;/th&gt;
+          &lt;th&gt;Model Example&lt;/th&gt;
+          &lt;th&gt;Inputs&lt;/th&gt;
+          &lt;th&gt;Max Signal Tested&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Blackmagic&lt;/td&gt;
+          &lt;td&gt;UltraStudio Recorder 3G&lt;/td&gt;
+          &lt;td&gt;3G-SDI, HDMI&lt;/td&gt;
+          &lt;td&gt;1080p60&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Elgato&lt;/td&gt;
+          &lt;td&gt;CamLink 4K&lt;/td&gt;
+          &lt;td&gt;HDMI&lt;/td&gt;
+          &lt;td&gt;4K30&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Atomos&lt;/td&gt;
+          &lt;td&gt;Connect 2&lt;/td&gt;
+          &lt;td&gt;HDMI&lt;/td&gt;
+          &lt;td&gt;4K30&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;StarTech&lt;/td&gt;
+          &lt;td&gt;USB3HDCAP&lt;/td&gt;
+          &lt;td&gt;HDMI, Component&lt;/td&gt;
+          &lt;td&gt;1080p60&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Tip:&lt;/strong&gt; If the device works in QuickTime Player’s “New Movie Recording,” it works in CineMon.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2&gt;4. Cable &amp;amp; Power Checklist&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4-cable--power-checklist&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4-cable--power-checklist&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Short, certified USB-C&lt;/strong&gt; cables minimise signal drops.&lt;/li&gt;
+&lt;li&gt;Use the &lt;strong&gt;original power adapter&lt;/strong&gt; for hungry capture sticks (CamLink 4K draws ~5 W).&lt;/li&gt;
+&lt;li&gt;On location, a small &lt;strong&gt;USB-C PD power bank&lt;/strong&gt; keeps iPad + capture interface alive for hours.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;5. First Launch &amp;amp; Input Selection&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;5-first-launch--input-selection&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#5-first-launch--input-selection&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Connect the capture interface&lt;/strong&gt; to your iPad or Mac &lt;em&gt;before&lt;/em&gt; opening CineMon.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plug your camera’s HDMI/SDI&lt;/strong&gt; into the capture interface and set the camera’s output to a supported resolution (1080p59.94 is universally safe).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Launch CineMon&lt;/strong&gt;. Within two seconds you should see live video. If you don’t, check:
+&lt;ul&gt;
+&lt;li&gt;Camera output format matches interface limits.&lt;/li&gt;
+&lt;li&gt;USB-C cable is firmly seated.&lt;/li&gt;
+&lt;li&gt;macOS: open &lt;strong&gt;CineMon ▸ Preferences ▸ Input&lt;/strong&gt; and pick the interface from the list.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2&gt;6. A Two-Minute Tour of the UI&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;6-a-two-minute-tour-of-the-ui&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#6-a-two-minute-tour-of-the-ui&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Video-Assist Toolbar&lt;/strong&gt; (bottom on iPad, side on Mac) — houses toggle buttons for every tool and scope.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Slide-Out Drawers&lt;/strong&gt; — drag any toolbar icon upward; a settings drawer “snaps” under your finger. Drag down to hide.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Preset Carousel&lt;/strong&gt; — swipe left/right on the picture to cycle built-in presets (“Clean Feed,” “Show LUT,” “Scopes”).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scopes Bar&lt;/strong&gt; (right edge) — enables Histogram, Waveform, Vectorscope, or Quad View.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Gesture Essentials&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Double-tap&lt;/em&gt; anywhere ➜ hide/show toolbars.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Pinch-zoom &amp;amp; drag&lt;/em&gt; ➜ inspect pixel-level focus; a mini-map appears top-left.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Long-press&lt;/em&gt; an icon ➜ duplicate or export the current configuration preset.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2&gt;7. Creating Your First Preset&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;7-creating-your-first-preset&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#7-creating-your-first-preset&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;Enable &lt;strong&gt;Grid Overlay&lt;/strong&gt; and set it to &lt;strong&gt;3×3&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Turn on &lt;strong&gt;False Color&lt;/strong&gt; and choose the “CineMon Default” gradient.&lt;/li&gt;
+&lt;li&gt;Load your camera manufacturer’s &lt;strong&gt;Technical LUT&lt;/strong&gt; into Slot 1.&lt;/li&gt;
+&lt;li&gt;Tap &lt;strong&gt;Sidebar ▸ Organizer ▸ + Preset&lt;/strong&gt; ➜ name it &lt;em&gt;“Day-EXT-Tech”&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Swipe left on the picture ➜ CineMon loads &lt;em&gt;“Clean Feed.”&lt;/em&gt; Swipe right to return — voilà, your first preset is now one gesture away.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2&gt;8. Next Steps&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;8-next-steps&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#8-next-steps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Dive into the &lt;strong&gt;Tools&lt;/strong&gt; section to master overlays like Focus Peaking and Zebras.&lt;/li&gt;
+&lt;li&gt;Open the &lt;strong&gt;Scopes&lt;/strong&gt; section to learn when to rely on Waveform vs Histogram.&lt;/li&gt;
+&lt;li&gt;Visit &lt;strong&gt;Presets &amp;amp; Organizer&lt;/strong&gt; to share your look with the rest of the camera department.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you hit snags, the &lt;strong&gt;Troubleshooting&lt;/strong&gt; page (coming soon) lists common capture, battery, and frame-rate issues.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Happy monitoring — and welcome to the CineMon community!&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Settings Sidebar</title>
+      <link>http://localhost:1313/docs/settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/settings/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;1  Overview / Purpose &amp;amp; Usage&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1--overview-purpose-usage&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1--overview-purpose-usage&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The &lt;strong&gt;Settings Sidebar&lt;/strong&gt; groups pipeline‑wide options that affect every preset: incoming signal characteristics, video levels, performance trade‑offs, and UI appearance.  Tap the Sidebar icon, choose &lt;strong&gt;Settings&lt;/strong&gt;, and you’ll see four collapsable sections.&lt;/p&gt;
+&lt;h2&gt;2  Options &amp;amp; Modes&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2--options-modes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2--options-modes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Section&lt;/th&gt;
+          &lt;th&gt;Key Options&lt;/th&gt;
+          &lt;th&gt;Reason to Change&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Signal&lt;/td&gt;
+          &lt;td&gt;Log Curve (F‑Log, LogC, S‑Log3, HLG…)&lt;/td&gt;
+          &lt;td&gt;Calibrates False Color, Spot Meter, and LUT transforms.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Levels&lt;/td&gt;
+          &lt;td&gt;Data (16‑235) / Full (0‑255)&lt;/td&gt;
+          &lt;td&gt;Match external recorders or LED walls.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Pipeline&lt;/td&gt;
+          &lt;td&gt;Quality ↔ Latency slider&lt;/td&gt;
+          &lt;td&gt;Drag to low latency for focus pulling; quality when image fidelity trumps delay.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;UI Brightness&lt;/td&gt;
+          &lt;td&gt;0 – 100 %&lt;/td&gt;
+          &lt;td&gt;Dim toolbars on night shoots to protect dark adaptation.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Changing &lt;strong&gt;Log Curve&lt;/strong&gt; informs all camera‑aware tools so 18 % grey maps correctly.  &lt;strong&gt;Pipeline&lt;/strong&gt; slides between a single‑pass shader (lowest lag) and multi‑pass HDR tone‑mapping (highest fidelity).&lt;/p&gt;
+&lt;h2&gt;3  Tips, Best Practices &amp;amp; Use‑Cases&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3--tips-best-practices-usecases&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3--tips-best-practices-usecases&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Always set Signal before rolling; otherwise False Color may highlight middle grey as bright red when you expected green.  At outdoor concerts drag UI Brightness below 15 % so string lights don’t reveal your monitor position to the audience.  For live focus assists, push Latency to minimum—every frame counts when pulling at 120 fps.&lt;/p&gt;
+&lt;h2&gt;4  Related Topics&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4--relatedtopics&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4--relatedtopics&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;tools/spot-meter.md&#34; &gt;&lt;code&gt;spot-meter.md&lt;/code&gt;&lt;/a&gt; – uses the selected Log curve&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;gestures.md&#34; &gt;&lt;code&gt;gestures.md&lt;/code&gt;&lt;/a&gt; – hide toolbars after dimming UI brightness&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>User-Interface Overview</title>
+      <link>http://localhost:1313/docs/user-interface/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/user-interface/</guid>
+      <description>
+        
+        
+        &lt;h1&gt;CineMon UI Overview&lt;/h1&gt;&lt;p&gt;CineMon’s layout is deliberately minimal: &lt;strong&gt;picture first, controls second&lt;/strong&gt;.
+Yet every monitoring function—from scopes to false-color—lives no more than a single tap or key-press away.
+This page walks you through each region of the interface, explains what it does, and links out to deeper documentation.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;1. Primary Screen Elements&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1-primary-screen-elements&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-primary-screen-elements&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;UI Area&lt;/th&gt;
+          &lt;th&gt;Location&lt;/th&gt;
+          &lt;th&gt;Purpose&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Live Image Canvas&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Centre&lt;/td&gt;
+          &lt;td&gt;Shows your camera feed; supports pinch-zoom and drag.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Video-Assist Toolbar&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Bottom (iPad/iPhone) • Left edge (Mac)&lt;/td&gt;
+          &lt;td&gt;Houses toggles for overlays and look tools.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Scopes Bar&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Right edge&lt;/td&gt;
+          &lt;td&gt;Quick access to Histogram, Waveform, Vectorscope, Quad Scope.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Mini-Map&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Top-left (auto-shows on zoom)&lt;/td&gt;
+          &lt;td&gt;Indicates your zoomed-in viewport relative to full frame.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Sidebar&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Left-edge swipe or ☰ button&lt;/td&gt;
+          &lt;td&gt;Opens Organizer, Settings, About, and Help.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Slide-Out Drawers&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Under each toolbar icon&lt;/td&gt;
+          &lt;td&gt;Reveal per-tool options when you drag the icon upward.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;HUD Status Badges&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Top-right overlay&lt;/td&gt;
+          &lt;td&gt;Shows active LUT slot, de-squeeze ratio, flip state, and frame-rate warnings.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2&gt;2. Navigating the Interface&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2-navigating-the-interface&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-navigating-the-interface&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The very first time you launch CineMon you’re dropped into a &lt;strong&gt;Clean Feed&lt;/strong&gt; preset—only the Video-Assist toolbar is visible.
+Here’s how you unearth everything else:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Activate a Tool&lt;/strong&gt; – Tap any icon once.
+The overlay animates on-screen and the icon glows blue to confirm it’s live.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Adjust Tool Options&lt;/strong&gt; – Drag the same icon &lt;em&gt;upward&lt;/em&gt;; a drawer “snaps” into place under your finger, exposing sliders, colour pickers, or file loaders.
+Drag downward or tap outside the drawer to dismiss it.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Open a Scope&lt;/strong&gt; – Tap a scope icon on the right; the floating window appears directly under your pointer.
+Pinch to resize; drag to reposition; double-tap to open that scope’s own settings or to make it full-screen.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hide the Chrome&lt;/strong&gt; – Double-tap anywhere on the picture and both toolbars slide away, perfect for operator-only viewing or clean screenshots.
+Double-tap again to bring them back.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Swipe for Presets&lt;/strong&gt; – With one finger on the picture, swipe left or right.
+CineMon flips through the Configuration Preset carousel, animating active tools so clients &lt;em&gt;see&lt;/em&gt; what changes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;3. Slide-Out Drawers in Detail&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3-slide-out-drawers-in-detail&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3-slide-out-drawers-in-detail&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;A drawer always belongs to the icon you pulled.
+If you pin open multiple drawers they stack in a tidy strip; CineMon remembers their order when you reload the preset.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Real-time Updates&lt;/strong&gt; – Change a slider and watch the live image respond instantly—no “Apply” button.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contextual Help&lt;/strong&gt; – A small 〔?〕 badge in each drawer’s corner links to the specific doc page for that tool, opening in-app.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Persistent per Preset&lt;/strong&gt; – Drawer state (open/closed) is saved with the preset, so a “Scopes” preset might launch with Waveform and Vectorscope drawers already expanded.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;4. Sidebar Modules&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4-sidebar-modules&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4-sidebar-modules&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Swipe from the far left edge or tap the ☰ button to open the Sidebar. It contains four tabs:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Organizer&lt;/strong&gt; – Manage Configuration Presets, Display LUTs, and False-Color Gradients.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Settings&lt;/strong&gt; – Global pipeline controls (Log curve, data vs full levels, latency).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;About&lt;/strong&gt; – Version, build number, EULA, and credits.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Help&lt;/strong&gt; – Direct links to this documentation and troubleshooting guide.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The Sidebar is &lt;em&gt;modal&lt;/em&gt;; CineMon pauses gesture recognition elsewhere so you can’t accidentally change exposure while renaming a preset.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;5. Keyboard &amp;amp; Gesture Equivalents&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;5-keyboard--gesture-equivalents&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#5-keyboard--gesture-equivalents&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;On iPad/iPhone you’ll rely on touch, but on Mac the following shortcuts keep your hands on the keyboard:&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Shortcut&lt;/th&gt;
+          &lt;th&gt;Action&lt;/th&gt;
+          &lt;th&gt;Touch Equivalent&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;Space&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Hide/show toolbars&lt;/td&gt;
+          &lt;td&gt;Double-tap&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;← / →&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Previous / Next preset&lt;/td&gt;
+          &lt;td&gt;Swipe left/right&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;⌘1 – ⌘9&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Toggle first nine tools&lt;/td&gt;
+          &lt;td&gt;Tap icon&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;⌘⇧H&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Toggle Histogram&lt;/td&gt;
+          &lt;td&gt;Tap Histogram icon&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;F&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Full-screen current scope&lt;/td&gt;
+          &lt;td&gt;Double-tap scope&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2&gt;6. Latency and Performance Indicators&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;6-latency-and-performance-indicators&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#6-latency-and-performance-indicators&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;A tiny &lt;strong&gt;green, amber, or red dot&lt;/strong&gt; in the HUD shows end-to-end latency health:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Green&lt;/strong&gt; &amp;lt; 50 ms – Ideal for focus pulling.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Amber&lt;/strong&gt; 50–90 ms – Acceptable for composition.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Red&lt;/strong&gt; &amp;gt; 90 ms – Consider lowering camera output resolution or moving the &lt;em&gt;Pipeline&lt;/em&gt; slider toward &lt;strong&gt;Latency&lt;/strong&gt; in Settings.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Frame-rate mismatches (e.g., 29.97 fps source on a 60 Hz display) trigger a small ⚠︎ icon; hover (Mac) or long-press (iPad) to see the exact rate disparity.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;7. Customising the Layout&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;7-customising-the-layout&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#7-customising-the-layout&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;em&gt;Drag-and-drop&lt;/em&gt; scopes anywhere—even onto a second monitor via Stage Manager or Sidecar.
+Toolbars can be flipped (top ↔ bottom on iPad; left ↔ right on Mac) in &lt;strong&gt;Settings › Interface&lt;/strong&gt;.
+Your layout preferences save automatically into the current Configuration Preset, so every scene can launch with its own personalised workspace.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;8. Where to Go Next&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;8-where-to-go-next&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#8-where-to-go-next&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;You now know the neighborhood—time to explore the houses:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tools Section&lt;/strong&gt; – Learn how Grid Overlay, False Color, Focus Peaking, and friends live inside those toolbar icons.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scopes Section&lt;/strong&gt; – Master Histogram vs Waveform vs Vectorscope positioning and tuning.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Presets &amp;amp; Organizer&lt;/strong&gt; – See how to snapshot your entire UI and share it with the rest of the camera crew.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;CineMon’s UI is built for speed and muscle memory; after a day of use you’ll instinctively swipe, pinch, and tap your way through complex monitoring tasks without looking away from the shot.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Presets &amp; Organizer</title>
+      <link>http://localhost:1313/docs/presets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/presets/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;1  Overview / Purpose &amp;amp; Usage&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1--overview-purpose-usage&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1--overview-purpose-usage&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Configuration Presets turn hours of setup into one swipe.  Each preset stores which tools are active, their drawer values, LUT slots, and scope positions.  Open &lt;strong&gt;Sidebar › Organizer&lt;/strong&gt; and you land on the Presets tab where you can create, duplicate, rename, export, or drag‑reorder.&lt;/p&gt;
+&lt;h2&gt;2  Options &amp;amp; Modes&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2--options-modes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2--options-modes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Item&lt;/th&gt;
+          &lt;th&gt;Actions&lt;/th&gt;
+          &lt;th&gt;Notes&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Preset Cell&lt;/td&gt;
+          &lt;td&gt;Tap to load&lt;/td&gt;
+          &lt;td&gt;Name turns orange when current settings diverge.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Long‑press&lt;/td&gt;
+          &lt;td&gt;Duplicate, Rename, Export, Delete&lt;/td&gt;
+          &lt;td&gt;Export creates a &lt;code&gt;.cmonpreset&lt;/code&gt; bundle for AirDrop.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Drag Handle&lt;/td&gt;
+          &lt;td&gt;Re‑order&lt;/td&gt;
+          &lt;td&gt;Organise by scene number or camera letter.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Two additional tabs hold &lt;strong&gt;Display LUTs&lt;/strong&gt; and &lt;strong&gt;False‑Color Gradients&lt;/strong&gt;.  LUTs accept &lt;code&gt;.cube&lt;/code&gt;; gradients import/export as JSON.  Both lists use iOS swipe gestures to rename or delete assets.&lt;/p&gt;
+&lt;h2&gt;3  Tips, Best Practices &amp;amp; Use‑Cases&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3--tips-best-practices-usecases&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3--tips-best-practices-usecases&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Many crews name presets “Day‑EXT‑Tech,” “Day‑EXT‑Look,” “Night‑INT,” then swipe between them on scout days.  Because export bundles include thumbnail previews, DITs back at basecamp can eyeball which version to apply on review stations.  Remember: if a preset name goes orange, you have unsaved tweaks—tap Save to lock them in or Reset to revert.&lt;/p&gt;
+&lt;h2&gt;4  Related Topics&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4--relatedtopics&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4--relatedtopics&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;tools/display-lut.md&#34; &gt;&lt;code&gt;display-lut.md&lt;/code&gt;&lt;/a&gt; – LUTs stored in the same Organizer&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;tools/false-color.md&#34; &gt;&lt;code&gt;false-color.md&lt;/code&gt;&lt;/a&gt; – gradient library adjacent to presets&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Gestures &amp; Shortcuts</title>
+      <link>http://localhost:1313/docs/gestures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/gestures/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;1  Overview / Purpose &amp;amp; Usage&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1--overview-purpose-usage&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1--overview-purpose-usage&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Touch gestures on iPad and keyboard shortcuts on Mac are the fastest way to navigate CineMon once muscle memory sets in.  Double‑tapping anywhere hides the toolbars so the frame stands alone, pinch‑zoom inspects pixel‑level focus, and swiping left or right cycles though configuration presets like riffles in a card deck.&lt;/p&gt;
+&lt;h2&gt;2  Options &amp;amp; Modes&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2--options-modes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2--options-modes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Gestures are hard‑wired; however, &lt;strong&gt;Settings › UI Brightness&lt;/strong&gt; influences how stark the hidden toolbars appear when toggled back on.  On Mac, arrow keys perform the same preset cycling, and the Spacebar toggles toolbars—ideal for operators wearing gloves.&lt;/p&gt;
+&lt;h2&gt;3  Tips, Best Practices &amp;amp; Use‑Cases&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3--tips-best-practices-usecases&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3--tips-best-practices-usecases&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Pinch‑zoom then drag the mini‑map to another quadrant—an unbeatable way to check edge focus on anamorphic cinema lenses without interrupting the take.  During client reviews, double‑tap to hide toolbars, grab a clean screenshot, and send the PNG knowing no UI needs cropping in Photoshop.&lt;/p&gt;
+&lt;h2&gt;4  Related Topics&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4--relatedtopics&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4--relatedtopics&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;presets.md&#34; &gt;&lt;code&gt;presets.md&lt;/code&gt;&lt;/a&gt; – what you swipe through&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;settings.md&#34; &gt;&lt;code&gt;settings.md&lt;/code&gt;&lt;/a&gt; – UI Brightness that dims hidden bars&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>CineMon for Mac</title>
+      <link>http://localhost:1313/docs/mac/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/mac/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;1  Overview / Purpose &amp;amp; Usage&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1--overview-purpose-usage&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1--overview-purpose-usage&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;CineMon for Mac translates the exact same toolset to desktop, perfect for Video Village or colourist dailies.  Plug a Blackmagic UltraStudio into Thunderbolt, launch CineMon, and the capture feed appears in a resizable window whose chrome mirrors the iPad layout.  Keyboard shortcuts double the gesture set so editors feel at home.&lt;/p&gt;
+&lt;h2&gt;2  Options &amp;amp; Modes&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2--options-modes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2--options-modes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Mac‑Specific Feature&lt;/th&gt;
+          &lt;th&gt;Details&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Window Resizing&lt;/td&gt;
+          &lt;td&gt;Scopes and overlays scale; full‑screen available on a second monitor.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Menu Bar&lt;/td&gt;
+          &lt;td&gt;Every tool lives under the Window menu for quick access.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Drag &amp;amp; Drop&lt;/td&gt;
+          &lt;td&gt;Import LUTs, gradients, presets by dropping files onto the window.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Because macOS allows multiple windows, you can duplicate CineMon and place scopes on one display, picture on another—all synced to the same audio‑locked capture stream.&lt;/p&gt;
+&lt;h2&gt;3  Tips, Best Practices &amp;amp; Use‑Cases&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3--tips-best-practices-usecases&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3--tips-best-practices-usecases&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Pair a Mac Mini with an HDR OLED, run CineMon full‑screen, and you have a professional review station for under $1 k.  Enable &lt;strong&gt;Quad Scope View&lt;/strong&gt; on an iPad via Sidecar while the Mac shows only picture; the colourist can eyeball both at once without clutter.&lt;/p&gt;
+&lt;h2&gt;4  Related Topics&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4--relatedtopics&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4--relatedtopics&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;gestures.md&#34; &gt;&lt;code&gt;gestures.md&lt;/code&gt;&lt;/a&gt; – keyboard equivalents&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;presets.md&#34; &gt;&lt;code&gt;presets.md&lt;/code&gt;&lt;/a&gt; – presets transfer seamlessly via AirDrop&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Grid Overlay</title>
+      <link>http://localhost:1313/docs/tools/grid-overlay/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/tools/grid-overlay/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;1  Overview / Purpose &amp;amp; Usage&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1--overview-purpose-usage&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1--overview-purpose-usage&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The Grid Overlay sprays an evenly‑spaced lattice of vertical and horizontal guide lines across your live video.  Cinematographers lean on these grids to honour the classic &lt;strong&gt;Rule‑of‑Thirds&lt;/strong&gt;, centre symmetrical products, or divide the frame into equal cells for multi‑host interviews.&lt;br&gt;
+Turn the feature on by tapping the &lt;strong&gt;Grid&lt;/strong&gt; icon in the Video‑Assist toolbar.  CineMon immediately remembers—and re‑applies—the last grid you used; a gentle snap animation shows that the overlay is active.  Drag the icon upward and a drawer slides out beneath your finger, giving you direct manipulation of line counts and appearance.  As you move each slider, the grid updates in real time, so you never lose sight of composition while you tweak.&lt;/p&gt;
+&lt;h2&gt;2  Options &amp;amp; Modes&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2--options-modes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2--options-modes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The quick reference table lists the adjustable parameters; the paragraphs that follow explain why you would reach for each one.&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Option&lt;/th&gt;
+          &lt;th&gt;Value Type&lt;/th&gt;
+          &lt;th&gt;Range / Choices&lt;/th&gt;
+          &lt;th&gt;Role in the Overlay&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Vertical Lines&lt;/td&gt;
+          &lt;td&gt;Integer slider&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;1 – 10&lt;/strong&gt; columns&lt;/td&gt;
+          &lt;td&gt;Sets the number of equally‑spaced &lt;em&gt;columns&lt;/em&gt;.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Horizontal Lines&lt;/td&gt;
+          &lt;td&gt;Integer slider&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;1 – 10&lt;/strong&gt; rows&lt;/td&gt;
+          &lt;td&gt;Sets the number of equally‑spaced &lt;em&gt;rows&lt;/em&gt;.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Line Colour&lt;/td&gt;
+          &lt;td&gt;RGBA swatch&lt;/td&gt;
+          &lt;td&gt;Full colour &amp;amp; alpha&lt;/td&gt;
+          &lt;td&gt;Controls the hue the grid is rendered in.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Opacity&lt;/td&gt;
+          &lt;td&gt;Percentage slider&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;0 – 100 %&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Makes the lines fully solid (100 %) or ghosted (0 %).&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Vertical &amp;amp; Horizontal Lines&lt;/strong&gt; The sliders accept whole numbers because fractional divisions are visually confusing in a moving frame.  Choose &lt;strong&gt;3×3&lt;/strong&gt; for a textbook thirds layout; choose &lt;strong&gt;5×5&lt;/strong&gt; when you need finer granularity—common on beauty commercials where eyes, lips, and products all demand their own horizontal bands.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Line Colour&lt;/strong&gt; Tap the colour thumbnail to open the system picker.  A neon cyan pops on location exteriors, whereas a warm amber avoids clashing with tungsten house lights.  Because CineMon decouples colour and transparency, you can keep a bold hue and simultaneously lower opacity so the grid feels airy instead of oppressive.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Opacity&lt;/strong&gt; Full‑strength lines are ideal when blocking the first master shot of the day.  Once composition is locked, many camera operators pull opacity to 20–30 percent; the guide remains visible to them but vanishes to less‑trained eyes crowding around the monitor.&lt;/p&gt;
+&lt;h2&gt;3  Tips, Best Practices &amp;amp; Use‑Cases&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3--tips-best-practices-usecases&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3--tips-best-practices-usecases&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;CineMon renders the grid &lt;em&gt;after&lt;/em&gt; image transformations but &lt;em&gt;before&lt;/em&gt; scopes.  That means when you enable &lt;strong&gt;Aspect Ratio Guides&lt;/strong&gt; the grid automatically re‑calibrates itself to the visible crop—no math in your head, no offsets to dial.&lt;br&gt;
+A popular preset routine is to save “Thirds” and “Fifths” as separate &lt;strong&gt;Configuration Presets&lt;/strong&gt;.  During a rehearsal you can swipe left or right on the picture to morph between the two; CineMon cross‑fades the lattice so the director can decide which composition better serves the story.  If you pinch‑zoom to inspect focus, beware that the grid re‑centres on the newly cropped window—great for macro work, but remember to zoom back out before you roll!&lt;/p&gt;
+&lt;h2&gt;4  Related Topics&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4--relatedtopics&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4--relatedtopics&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;aspect-ratio.md&#34; &gt;&lt;code&gt;aspect-ratio.md&lt;/code&gt;&lt;/a&gt; – crop bars that respect the same thirds&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;safe-area.md&#34; &gt;&lt;code&gt;safe-area.md&lt;/code&gt;&lt;/a&gt; – broadcast boxes that sit inside the grid&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Center Mark</title>
+      <link>http://localhost:1313/docs/tools/center-mark/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/tools/center-mark/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;1  Overview / Purpose &amp;amp; Usage&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1--overview-purpose-usage&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1--overview-purpose-usage&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The Center Mark is the simplest overlay in CineMon: a single cross‑hair (or bull‑seye, depending on the theme) anchored at exact mid‑frame.  Toggle it with the &lt;strong&gt;Center&lt;/strong&gt; icon.  Because there is practically nothing to configure, the tool behaves like an &lt;em&gt;instant flashlight&lt;/em&gt;—tap and there it is, right when the dolly grip asks, “Are we perfectly centred?”&lt;/p&gt;
+&lt;h2&gt;2  Options &amp;amp; Modes&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2--options-modes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2--options-modes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Option&lt;/th&gt;
+          &lt;th&gt;Value Type&lt;/th&gt;
+          &lt;th&gt;Range&lt;/th&gt;
+          &lt;th&gt;Function&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Mark Colour&lt;/td&gt;
+          &lt;td&gt;RGBA swatch&lt;/td&gt;
+          &lt;td&gt;Full palette&lt;/td&gt;
+          &lt;td&gt;Hue of the cross‑hair / bull‑seye&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Although only colour is available, that tiny choice matters.  A saturated lime is legible on night exteriors, whereas a low‑alpha grey offers guidance without shouting on client monitors.  CineMon saves the exact RGBA value with the current preset, ensuring that your discreet centre point returns each time you reload “Steadicam Pass 2”.&lt;/p&gt;
+&lt;h2&gt;3  Tips, Best Practices &amp;amp; Use‑Cases&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3--tips-best-practices-usecases&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3--tips-best-practices-usecases&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Pair the Center Mark with &lt;strong&gt;Safe Area&lt;/strong&gt; rectangles to guarantee motion‑graphics stay dead‑centre &lt;em&gt;and&lt;/em&gt; within title‑safe boundaries.  VFX supervisors appreciate leaving the mark on while capturing clean plates—the dot makes 2‑D track solves trivial, and because it is generated digitally, you can remove it later by re‑exporting the plate without the overlay.&lt;/p&gt;
+&lt;h2&gt;4  Related Topics&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4--relatedtopics&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4--relatedtopics&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;safe-area.md&#34; &gt;&lt;code&gt;safe-area.md&lt;/code&gt;&lt;/a&gt; – perfect size reference around the same centre&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;frame-overlay.md&#34; &gt;&lt;code&gt;frame-overlay.md&lt;/code&gt;&lt;/a&gt; – match plates exactly against the mark&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Safe Area</title>
+      <link>http://localhost:1313/docs/tools/safe-area/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/tools/safe-area/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;1  Overview / Purpose &amp;amp; Usage&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1--overview-purpose-usage&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1--overview-purpose-usage&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Broadcast engineers invented the &lt;strong&gt;Safe Area&lt;/strong&gt; box to stop credits and supers from being chopped off on mismatched domestic televisions.  Today the concept survives in streaming, live‑graphics, and LED‑wall control rooms.&lt;br&gt;
+In CineMon you enable the overlay by tapping the &lt;strong&gt;Safe&lt;/strong&gt; icon; a rectangle pops onto the screen sized to whatever percentage you last used.  Dragging upward reveals the familiar option drawer where you dial in the exact “Safe Percentage,” choose a compliance colour such as legal yellow, and tone down opacity so on‑set talent barely notices it.&lt;/p&gt;
+&lt;h2&gt;2  Options &amp;amp; Modes&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2--options-modes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2--options-modes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Option&lt;/th&gt;
+          &lt;th&gt;Value Type&lt;/th&gt;
+          &lt;th&gt;Range / Choices&lt;/th&gt;
+          &lt;th&gt;Explanation&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Safe %&lt;/td&gt;
+          &lt;td&gt;Integer slider&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;50 – 100 %&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Scales the rectangle relative to the &lt;em&gt;current&lt;/em&gt; aspect ratio. 90 % is Action‑Safe; 80 % is Title‑Safe.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Line Colour&lt;/td&gt;
+          &lt;td&gt;RGBA swatch&lt;/td&gt;
+          &lt;td&gt;Full palette&lt;/td&gt;
+          &lt;td&gt;The stroke colour of the rectangle. Yellow is industry standard.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Opacity&lt;/td&gt;
+          &lt;td&gt;Percentage slider&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;0 – 100 %&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Transparency of the rectangle lines.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Setting &lt;strong&gt;Safe %&lt;/strong&gt; to 90 creates a box whose edges sit at 90 percent of the width and height of whatever crop is active—swap from 16 : 9 to 2.39 : 1 and the box neatly scales down.  If you need two boxes (Action &lt;em&gt;and&lt;/em&gt; Title) simply store them as separate presets and swipe between them; CineMon’s animated transition makes it clear which is which.&lt;/p&gt;
+&lt;p&gt;Colour and Opacity are rendered using the display‑space primaries, so the yellow you pick on an iPad Pro will match a calibrated OLED fed from CineMon for Mac—critical when the shader wants confidence that graphics won’t flutter in HDR deliverables.&lt;/p&gt;
+&lt;h2&gt;3  Tips, Best Practices &amp;amp; Use‑Cases&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3--tips-best-practices-usecases&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3--tips-best-practices-usecases&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;A clever workflow is to leave Safe Area at 95 % during blocking—this “virtual matte” keeps boom poles and reflector frames just outside audience view—then drop to 90 % after lighting to check that titles still clear.  Because the box is drawn after all scaling, you can even rotate an iPhone to portrait and watch the rectangle reorient live, ensuring vertical deliverables remain compliant.&lt;/p&gt;
+&lt;h2&gt;4  Related Topics&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4--relatedtopics&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4--relatedtopics&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;aspect-ratio.md&#34; &gt;&lt;code&gt;aspect-ratio.md&lt;/code&gt;&lt;/a&gt; – the crop bars that reshape the safe box&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;grid-overlay.md&#34; &gt;&lt;code&gt;grid-overlay.md&lt;/code&gt;&lt;/a&gt; – gives extra guidance lines inside the safe rectangle&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Aspect Ratio Guides</title>
+      <link>http://localhost:1313/docs/tools/aspect-ratio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/tools/aspect-ratio/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;1  Overview / Purpose &amp;amp; Usage&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1--overview-purpose-usage&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1--overview-purpose-usage&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Modern productions often finish in multiple aspect ratios: a 2.39 theatrical master, a 16:9 television pass, and vertical 9:16 teasers for social.  CineMon’s Aspect Ratio Guides let you visualise those mattes in real time &lt;em&gt;without&lt;/em&gt; sacrificing live pixels.&lt;br&gt;
+Tap the &lt;strong&gt;Ratio&lt;/strong&gt; icon once; black bars appear top and bottom (or left and right, depending on orientation).  Drag again to open the preset selector: choose a standard crop or enter a custom ratio—CineMon parses the pair of integers you type and builds the matte on the fly.&lt;/p&gt;
+&lt;h2&gt;2  Options &amp;amp; Modes&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2--options-modes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2--options-modes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Option&lt;/th&gt;
+          &lt;th&gt;Value Type&lt;/th&gt;
+          &lt;th&gt;Range / Choices&lt;/th&gt;
+          &lt;th&gt;Detail&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Preset Ratio&lt;/td&gt;
+          &lt;td&gt;Radio buttons&lt;/td&gt;
+          &lt;td&gt;2.39, 2.00, 1.85, 1:1, 9:16&lt;/td&gt;
+          &lt;td&gt;One‑tap access to industry standards.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Custom Ratio&lt;/td&gt;
+          &lt;td&gt;Two integer fields&lt;/td&gt;
+          &lt;td&gt;Any positive pair&lt;/td&gt;
+          &lt;td&gt;Enter width and height; e.g., &lt;strong&gt;18 × 9&lt;/strong&gt; draws a 2:1 matte.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Bar Colour&lt;/td&gt;
+          &lt;td&gt;RGBA swatch&lt;/td&gt;
+          &lt;td&gt;Full palette&lt;/td&gt;
+          &lt;td&gt;The colour of the crop bars.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Opacity&lt;/td&gt;
+          &lt;td&gt;Percentage slider&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;0 – 100 %&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Full black down to barely‑there grey.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Selecting a &lt;strong&gt;Preset&lt;/strong&gt; redraws the matte instantly.  Choosing &lt;strong&gt;Custom&lt;/strong&gt; pops two numeric spinners; CineMon overlays live feedback so you know you typed the ratio correctly.  &lt;em&gt;Bar Colour&lt;/em&gt; defaults to black, but a 50 percent grey is handy when you need to see lighting gear that might creep into the overscan.&lt;/p&gt;
+&lt;h2&gt;3  Tips, Best Practices &amp;amp; Use‑Cases&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3--tips-best-practices-usecases&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3--tips-best-practices-usecases&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Because the guide lives in the post‑LUT display chain, you can flip LUTs yet keep the matte intact.  Many crews keep two presets—“Deliver 16:9” and “Deliver 9:16”—and swipe left/right to reassure agencies that creative intent survives every screen.  During a rush grab of still images, set opacity to 0 percent: you retain the safe outlines (thin dashed line) but remove heavy bars, keeping thumbnails uncluttered.&lt;/p&gt;
+&lt;h2&gt;4  Related Topics&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4--relatedtopics&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4--relatedtopics&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;safe-area.md&#34; &gt;&lt;code&gt;safe-area.md&lt;/code&gt;&lt;/a&gt; – fits inside whatever crop you set&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;grid-overlay.md&#34; &gt;&lt;code&gt;grid-overlay.md&lt;/code&gt;&lt;/a&gt; – automatically scales to the active crop&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Image Flip</title>
+      <link>http://localhost:1313/docs/tools/image-flip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/tools/image-flip/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;1  Overview / Purpose &amp;amp; Usage&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1--overview-purpose-usage&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1--overview-purpose-usage&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Certain rigs—Steadicams, gimbals, and periscope lenses—invert or mirror the camera feed.  Rather than forcing operators to work “upside‑down,” CineMon provides &lt;strong&gt;Image Flip&lt;/strong&gt;.  Tap the &lt;strong&gt;Flip V&lt;/strong&gt; button to invert vertically; tap &lt;strong&gt;Flip H&lt;/strong&gt; for a mirror; tap both for a 180‑degree rotation.  CineMon overlays a subtle HUD icon confirming the active orientation, so you can glance at the monitor and know you are seeing “true north.”&lt;/p&gt;
+&lt;h2&gt;2  Options &amp;amp; Modes&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2--options-modes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2--options-modes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Option&lt;/th&gt;
+          &lt;th&gt;Value Type&lt;/th&gt;
+          &lt;th&gt;Choices&lt;/th&gt;
+          &lt;th&gt;Effect&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Flip V&lt;/td&gt;
+          &lt;td&gt;Toggle&lt;/td&gt;
+          &lt;td&gt;Off / On&lt;/td&gt;
+          &lt;td&gt;Swaps top and bottom.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Flip H&lt;/td&gt;
+          &lt;td&gt;Toggle&lt;/td&gt;
+          &lt;td&gt;Off / On&lt;/td&gt;
+          &lt;td&gt;Swaps left and right.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Both Flips&lt;/td&gt;
+          &lt;td&gt;Compound toggle&lt;/td&gt;
+          &lt;td&gt;Off / On&lt;/td&gt;
+          &lt;td&gt;Activates V + H in one tap.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Internally CineMon applies the transform in the GPU just before scope sampling, ensuring the waveform and histogram reflect the &lt;em&gt;flipped&lt;/em&gt; view—critical when pulling focus in mirror mode.&lt;/p&gt;
+&lt;h2&gt;3  Tips, Best Practices &amp;amp; Use‑Cases&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3--tips-best-practices-usecases&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3--tips-best-practices-usecases&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;For Steadicam day exteriors, operators often flip &lt;strong&gt;Both&lt;/strong&gt; and save that as a preset labelled “Upside Down.”  When the rig transitions to low‑mode dolly later, they swipe to an unflipped preset without diving into menus.  Because CineMon remembers the last state globally, you can close and reopen the app without re‑flipping—a timesaver on fast turnaround sets.&lt;/p&gt;
+&lt;h2&gt;4  Related Topics&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4--relatedtopics&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4--relatedtopics&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;de-squeeze.md&#34; &gt;&lt;code&gt;de-squeeze.md&lt;/code&gt;&lt;/a&gt; – combine when shooting inverted anamorphic&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../gestures.md&#34; &gt;&lt;code&gt;gestures.md&lt;/code&gt;&lt;/a&gt; – quick preset swiping to toggle flips&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Anamorphic De-squeeze</title>
+      <link>http://localhost:1313/docs/tools/de-squeeze/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/tools/de-squeeze/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;1  Overview / Purpose &amp;amp; Usage&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1--overview-purpose-usage&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1--overview-purpose-usage&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Anamorphic lenses squeeze the world horizontally to record a wider field of view onto a narrower sensor.  CineMon’s &lt;strong&gt;De‑squeeze&lt;/strong&gt; stretches that image back so you see correct proportions, enabling accurate composition and focus pulls.&lt;br&gt;
+Activate the tool with the &lt;strong&gt;De‑squeeze&lt;/strong&gt; icon.  A pop‑over lists mainstream squeeze ratios—&lt;strong&gt;1.25×, 1.33×, 1.5×, 1.8×, 2.0×&lt;/strong&gt;—and a “Manual” slider for oddball glass.  CineMon writes the chosen ratio into each preset; switching between spherical and anamorphic looks is then as easy as swiping presets.&lt;/p&gt;
+&lt;h2&gt;2  Options &amp;amp; Modes&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2--options-modes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2--options-modes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Option&lt;/th&gt;
+          &lt;th&gt;Value Type&lt;/th&gt;
+          &lt;th&gt;Range / Choices&lt;/th&gt;
+          &lt;th&gt;Purpose&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Preset Ratio&lt;/td&gt;
+          &lt;td&gt;Radio&lt;/td&gt;
+          &lt;td&gt;1.25× → 2.0×&lt;/td&gt;
+          &lt;td&gt;Matches common anamorphic families.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Manual Slider&lt;/td&gt;
+          &lt;td&gt;Float&lt;/td&gt;
+          &lt;td&gt;1.00× → 2.50× (0.01 steps)&lt;/td&gt;
+          &lt;td&gt;Fine‑tune vintage or aftermarket adapters.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Playback De‑squeeze&lt;/td&gt;
+          &lt;td&gt;Toggle&lt;/td&gt;
+          &lt;td&gt;Off / On&lt;/td&gt;
+          &lt;td&gt;Applies the same ratio to recorded clips.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Selecting a &lt;strong&gt;Preset Ratio&lt;/strong&gt; instantly scales the live feed.  The &lt;strong&gt;Manual Slider&lt;/strong&gt; updates the numeric label in real time so lens technicians can dial, say, &lt;strong&gt;1.58×&lt;/strong&gt; to match rehoused projector elements.  Turning on &lt;strong&gt;Playback De‑squeeze&lt;/strong&gt; means you can scrub recorded clips—looping them for lighting checks—without burning a temporary LUT in post.&lt;/p&gt;
+&lt;h2&gt;3  Tips, Best Practices &amp;amp; Use‑Cases&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3--tips-best-practices-usecases&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3--tips-best-practices-usecases&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Combine De‑squeeze with &lt;strong&gt;Focus Peaking&lt;/strong&gt;: CineMon applies peaking &lt;em&gt;after&lt;/em&gt; stretching, so edge‑detail reflects real geometry, not the squeezed distortion that fools many monitors.  Saving the transform as part of your “Show Look” preset means the DP flips between spherical rehearsals and anamorphic hero takes with one gesture—no hidden maths.  Remember to disable the tool before exporting frame grabs for online sharing; otherwise JPGs appear skinny on devices that don’t auto‑scale.&lt;/p&gt;
+&lt;h2&gt;4  Related Topics&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4--relatedtopics&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4--relatedtopics&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;image-flip.md&#34; &gt;&lt;code&gt;image-flip.md&lt;/code&gt;&lt;/a&gt; – solve inverted anamorphic rigs in tandem&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;focus-peaking.md&#34; &gt;&lt;code&gt;focus-peaking.md&lt;/code&gt;&lt;/a&gt; – peaking respects the stretched aspect&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Frame Overlay</title>
+      <link>http://localhost:1313/docs/tools/frame-overlay/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/tools/frame-overlay/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;1  Overview / Purpose &amp;amp; Usage&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1--overview-purpose-usage&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1--overview-purpose-usage&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Continuity breaks cost time.  CineMon’s &lt;strong&gt;Frame Overlay&lt;/strong&gt; lets you capture a still frame—or load one from storage—and overlay it on top of the live feed so you can line up props, talent, or camera angle with pixel‑level precision.  Once the tool is enabled from the &lt;strong&gt;Overlay&lt;/strong&gt; icon, you either hit the mini camera‑button to grab the current frame or browse Files for a reference image.  The overlay floats in place while the picture continues playing beneath.&lt;/p&gt;
+&lt;h2&gt;2  Options &amp;amp; Modes&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2--options-modes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2--options-modes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Option&lt;/th&gt;
+          &lt;th&gt;Value Type&lt;/th&gt;
+          &lt;th&gt;Range / Choices&lt;/th&gt;
+          &lt;th&gt;Detail&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Capture Still&lt;/td&gt;
+          &lt;td&gt;Button&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+          &lt;td&gt;Grabs current frame into overlay memory.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Load Image&lt;/td&gt;
+          &lt;td&gt;File browser&lt;/td&gt;
+          &lt;td&gt;PNG / JPG / TIFF&lt;/td&gt;
+          &lt;td&gt;Imports pre‑shot references.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Opacity&lt;/td&gt;
+          &lt;td&gt;Percentage slider&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;0 – 100 %&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Controls the transparency of the frame overlay.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Wipe&lt;/td&gt;
+          &lt;td&gt;Dial&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;0 – 180 °&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Reveals overlay via angular split plane.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Difference Mode&lt;/td&gt;
+          &lt;td&gt;Toggle&lt;/td&gt;
+          &lt;td&gt;Off / On&lt;/td&gt;
+          &lt;td&gt;Shows pixel‑differences in user‑picked colour.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;The &lt;strong&gt;Opacity&lt;/strong&gt; slider is perfect for set‑dressing: drag to 50 percent and move furniture until it blends with yesterday’s still.  &lt;strong&gt;Wipe&lt;/strong&gt; rotates a razor‑sharp split; at 90 degrees it becomes a horizontal “before/after” bar you can slide by finger.  &lt;strong&gt;Difference Mode&lt;/strong&gt; helps VFX teams: any pixel that changed lights up in red (or a colour you choose), instantly flagging mis‑aligned markers.&lt;/p&gt;
+&lt;h2&gt;3  Tips, Best Practices &amp;amp; Use‑Cases&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3--tips-best-practices-usecases&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3--tips-best-practices-usecases&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;During multi‑day food shoots, crews capture a hero composition at the end of day one.  On day two, the overlay guides re‑plating so the salad leaves land exactly where the creative director approved them.  Difference Mode is brilliant for match‑moving miniature plates—any parallax drift shows up immediately, avoiding expensive post stabilising.&lt;/p&gt;
+&lt;h2&gt;4  Related Topics&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4--relatedtopics&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4--relatedtopics&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;spot-meter.md&#34; &gt;&lt;code&gt;spot-meter.md&lt;/code&gt;&lt;/a&gt; – confirm lighting ratios while overlay is active&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;false-color.md&#34; &gt;&lt;code&gt;false-color.md&lt;/code&gt;&lt;/a&gt; – exposure checks on the reference plate&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Chroma-Key Assist</title>
+      <link>http://localhost:1313/docs/tools/chroma-key/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/tools/chroma-key/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;1  Overview / Purpose &amp;amp; Usage&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1--overview-purpose-usage&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1--overview-purpose-usage&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Green‑screen day can feel like black magic until you see the key live.  &lt;strong&gt;Chroma‑Key Assist&lt;/strong&gt; provides an on‑set preview so gaffers detect spill and DPs gauge separation long before post.  Tap the &lt;strong&gt;Key Assist&lt;/strong&gt; icon, sample the backdrop colour with the on‑screen eyedropper, and CineMon removes that hue in real time.  The residual image can be set transparent or composited over a background plate you load from Files.&lt;/p&gt;
+&lt;h2&gt;2  Options &amp;amp; Modes&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2--options-modes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2--options-modes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Option&lt;/th&gt;
+          &lt;th&gt;Value Type&lt;/th&gt;
+          &lt;th&gt;Range / Choices&lt;/th&gt;
+          &lt;th&gt;Purpose&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Eyedropper&lt;/td&gt;
+          &lt;td&gt;Tap sample&lt;/td&gt;
+          &lt;td&gt;Any pixel&lt;/td&gt;
+          &lt;td&gt;Picks key colour—even odd cyan screens.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Erode&lt;/td&gt;
+          &lt;td&gt;Percentage slider&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;0 – 100 %&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Shrinks matte edges to eliminate halos.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Soften&lt;/td&gt;
+          &lt;td&gt;Percentage slider&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;0 – 100 %&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Blurs matte edges for gentler mixes.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Spill Suppress&lt;/td&gt;
+          &lt;td&gt;Percentage slider&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;0 – 100 %&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Desaturates stray key colour on foreground.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Background Plate&lt;/td&gt;
+          &lt;td&gt;File browser&lt;/td&gt;
+          &lt;td&gt;PNG / JPG / Video&lt;/td&gt;
+          &lt;td&gt;Loads a comp plate behind the key.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Erode&lt;/strong&gt; eats into the matte boundary—use 3–5 percent to remove soft fringing from diffusion frames.  &lt;strong&gt;Soften&lt;/strong&gt; applies a Gaussian blur; 10 percent is enough to feather edges so they merge nicely.  &lt;strong&gt;Spill Suppress&lt;/strong&gt; darkens only the sampled colour family on the foreground, letting you preview how a spill‑killer gel might rescue wardrobe.&lt;/p&gt;
+&lt;h2&gt;3  Tips, Best Practices &amp;amp; Use‑Cases&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3--tips-best-practices-usecases&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3--tips-best-practices-usecases&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Lighting crews love to toggle Spill Suppress on, then physically adjust kicker lights until the slider falls to zero—proof the scene now keys cleanly without digital help.  When scouting, comp a rough previz background plate so the director sees camera height relative to 3‑D set extension; it sells the shot and avoids reshoots.&lt;/p&gt;
+&lt;h2&gt;4  Related Topics&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4--relatedtopics&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4--relatedtopics&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../scopes/vectorscope.md&#34; &gt;&lt;code&gt;vectorscope.md&lt;/code&gt;&lt;/a&gt; – confirm the key hue hugs the UV axis&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;frame-overlay.md&#34; &gt;&lt;code&gt;frame-overlay.md&lt;/code&gt;&lt;/a&gt; – align cg plates with the live key preview&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Focus Peaking</title>
+      <link>http://localhost:1313/docs/tools/focus-peaking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/tools/focus-peaking/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;1  Overview / Purpose &amp;amp; Usage&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1--overview-purpose-usage&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1--overview-purpose-usage&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Manual focus lacks depth of field indicators.  &lt;strong&gt;Focus Peaking&lt;/strong&gt; solves that by colouring high‑frequency edges so the puller sees exactly where sharpness lies.  Toggle the feature via the &lt;strong&gt;Focus&lt;/strong&gt; icon; CineMon’s GPU analysis runs at full frame rate, so the coloured halo snaps on and off as the lens ring turns.&lt;/p&gt;
+&lt;h2&gt;2  Options &amp;amp; Modes&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2--options-modes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2--options-modes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Option&lt;/th&gt;
+          &lt;th&gt;Value Type&lt;/th&gt;
+          &lt;th&gt;Range / Choices&lt;/th&gt;
+          &lt;th&gt;Meaning&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Peaking Mode&lt;/td&gt;
+          &lt;td&gt;Toggle&lt;/td&gt;
+          &lt;td&gt;Full Image / Edges Only&lt;/td&gt;
+          &lt;td&gt;“Edges Only” hides the video and shows just peaking strokes.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Highlight Colour&lt;/td&gt;
+          &lt;td&gt;RGBA swatch&lt;/td&gt;
+          &lt;td&gt;Full palette&lt;/td&gt;
+          &lt;td&gt;Tint of the peaking overlay.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Sensitivity&lt;/td&gt;
+          &lt;td&gt;Percentage slider&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;0 – 100 %&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Lower values detect only tack‑sharp edges; higher includes semi‑sharp.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;With &lt;strong&gt;Edges Only&lt;/strong&gt;, the screen becomes a neon wireframe—immensely helpful in loud environments where subtle colour doesn’t cut it.  &lt;strong&gt;Sensitivity&lt;/strong&gt; defaults to 60 percent; dial to 40 when shooting wide‑open on full‑frame where the depth of field is razor thin, or up to 80 when you need to see mid‑tones crisp for deep focus work.&lt;/p&gt;
+&lt;h2&gt;3  Tips, Best Practices &amp;amp; Use‑Cases&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3--tips-best-practices-usecases&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3--tips-best-practices-usecases&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Activating &lt;strong&gt;Image Adjust → Saturation 0 %&lt;/strong&gt; converts the scene to monochrome, letting the peaking colour pop against a grey canvas—classic in high‑contrast stage shows.  Because CineMon peaking runs &lt;em&gt;after&lt;/em&gt; &lt;strong&gt;De‑squeeze&lt;/strong&gt;, edge detection uses corrected pixel geometry, avoiding false sharpness on squeezed footage.&lt;/p&gt;
+&lt;h2&gt;4  Related Topics&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4--relatedtopics&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4--relatedtopics&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;image-adjust.md&#34; &gt;&lt;code&gt;image-adjust.md&lt;/code&gt;&lt;/a&gt; – turn saturation to zero before peaking&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;de-squeeze.md&#34; &gt;&lt;code&gt;de-squeeze.md&lt;/code&gt;&lt;/a&gt; – geometry‑correct peaking for anamorphics&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Zebras</title>
+      <link>http://localhost:1313/docs/tools/zebras/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/tools/zebras/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;1  Overview / Purpose &amp;amp; Usage&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1--overview-purpose-usage&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1--overview-purpose-usage&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Zebras layer diagonal stripes over pixels that fall above or below chosen luma thresholds.  Highlight zebras warn of clipping whites, shadow zebras flag crushed blacks.  Tap the &lt;strong&gt;Zebra&lt;/strong&gt; icon; CineMon applies your last thresholds and colours.  Opening the drawer reveals dual sliders so you can tune each band with single‑digit precision.&lt;/p&gt;
+&lt;h2&gt;2  Options &amp;amp; Modes&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2--options-modes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2--options-modes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Option&lt;/th&gt;
+          &lt;th&gt;Value Type&lt;/th&gt;
+          &lt;th&gt;Range&lt;/th&gt;
+          &lt;th&gt;What It Does&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Shadow Threshold&lt;/td&gt;
+          &lt;td&gt;Percentage slider&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;0 – 50 % IRE&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Pixels &lt;em&gt;below&lt;/em&gt; this IRE show Shadow zebras.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Highlight Threshold&lt;/td&gt;
+          &lt;td&gt;Percentage slider&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;50 – 110 % IRE&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Pixels &lt;em&gt;above&lt;/em&gt; this IRE show Highlight zebras.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Shadow Colour&lt;/td&gt;
+          &lt;td&gt;RGBA swatch&lt;/td&gt;
+          &lt;td&gt;Full palette&lt;/td&gt;
+          &lt;td&gt;Tint of shadow stripes.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Highlight Colour&lt;/td&gt;
+          &lt;td&gt;RGBA swatch&lt;/td&gt;
+          &lt;td&gt;Full palette&lt;/td&gt;
+          &lt;td&gt;Tint of highlight stripes.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;The slider labels display numeric IRE values as you drag.  For log curves, set &lt;em&gt;Highlight&lt;/em&gt; roughly 5 IRE under the camera’s clipping code‑value (e.g., 93 IRE for ARRI LogC).  Shadow warnings usually sit one or two stops above the noise floor—about 10 IRE on typical cinema sensors.&lt;/p&gt;
+&lt;h2&gt;3  Tips, Best Practices &amp;amp; Use‑Cases&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3--tips-best-practices-usecases&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3--tips-best-practices-usecases&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Pull highlight zebras down slightly during sunset: a faint zebra on the sun means the grade can safely push exposure without losing texture.  In night shoots, enabling only shadow zebras helps spot tunnel‑vision blacks so the colourist isn’t forced to lift noisy shadows later.&lt;/p&gt;
+&lt;h2&gt;4  Related Topics&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4--relatedtopics&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4--relatedtopics&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;false-color.md&#34; &gt;&lt;code&gt;false-color.md&lt;/code&gt;&lt;/a&gt; – holistic exposure map that complements zebras&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../scopes/histogram.md&#34; &gt;&lt;code&gt;histogram.md&lt;/code&gt;&lt;/a&gt; – numerical distribution to back up zebra decisions&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Image Adjust</title>
+      <link>http://localhost:1313/docs/tools/image-adjust/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/tools/image-adjust/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;1  Overview / Purpose &amp;amp; Usage&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1--overview-purpose-usage&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1--overview-purpose-usage&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The &lt;strong&gt;Image Adjust&lt;/strong&gt; panel gives you three realtime grading knobs—Exposure, Contrast, Saturation—processed on the GPU &lt;em&gt;after&lt;/em&gt; your chosen LUT so you preview the final picture, not a flat log curve.  Tap the &lt;strong&gt;Adjust&lt;/strong&gt; icon; three dials float above the live feed.  Spin each dial with your finger or mouse wheel and watch the image respond in a single frame.&lt;/p&gt;
+&lt;h2&gt;2  Options &amp;amp; Modes&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2--options-modes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2--options-modes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Option&lt;/th&gt;
+          &lt;th&gt;Value Type&lt;/th&gt;
+          &lt;th&gt;Range&lt;/th&gt;
+          &lt;th&gt;Function&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Exposure&lt;/td&gt;
+          &lt;td&gt;Rotary dial&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;–5 → +5&lt;/strong&gt; EV&lt;/td&gt;
+          &lt;td&gt;Photometrically raises or lowers brightness in full‑stop increments (fine‑tunable to 0.1).&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Contrast&lt;/td&gt;
+          &lt;td&gt;Rotary dial&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;0.5 → 2.0&lt;/strong&gt; gain&lt;/td&gt;
+          &lt;td&gt;Compresses or expands mid‑tones; 1.0 is neutral.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Saturation&lt;/td&gt;
+          &lt;td&gt;Rotary dial&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;0 → 200 %&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;0 % = monochrome; 200 % exaggerates colour.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Reset&lt;/td&gt;
+          &lt;td&gt;Button&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+          &lt;td&gt;Instantly zeros all three dials.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Each dial shows numeric read‑outs beneath so a DP can say, “Give me +0.7 EV and +10 % saturation” and assistants can replicate that precisely on other units.  CineMon stores these offsets in the active preset but never writes them into the recorded media—changes are purely display‑side.&lt;/p&gt;
+&lt;h2&gt;3  Tips, Best Practices &amp;amp; Use‑Cases&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3--tips-best-practices-usecases&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3--tips-best-practices-usecases&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Pull Saturation to zero and enable &lt;strong&gt;Focus Peaking&lt;/strong&gt;; the coloured halo leaps off the grey picture—excellent for backlit silhouettes.  Slight negative Contrast (0.8) mimics a flat grade for dynamic range checks, while a +1 EV boost previews how low‑light footage will lift in post.  Because adjustments are GPU accelerated, there is no extra latency—vital for pulling focus off the monitor.&lt;/p&gt;
+&lt;h2&gt;4  Related Topics&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4--relatedtopics&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4--relatedtopics&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;display-lut.md&#34; &gt;&lt;code&gt;display-lut.md&lt;/code&gt;&lt;/a&gt; – the LUT you grade &lt;em&gt;after&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;focus-peaking.md&#34; &gt;&lt;code&gt;focus-peaking.md&lt;/code&gt;&lt;/a&gt; – high‑visibility peaking when saturation is 0 %&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Display LUT</title>
+      <link>http://localhost:1313/docs/tools/display-lut/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/tools/display-lut/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;1  Overview / Purpose &amp;amp; Usage&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1--overview-purpose-usage&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1--overview-purpose-usage&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Display LUT&lt;/strong&gt; loads external &lt;code&gt;.cube&lt;/code&gt; files and applies them in real time so everyone on set views the footage through the intended look.  Tap the &lt;strong&gt;LUT&lt;/strong&gt; icon; three quick‑slots pop up.  Tap a slot to toggle it, or long‑press to replace it with a different LUT from Files, Dropbox, or AirDrop.&lt;/p&gt;
+&lt;h2&gt;2  Options &amp;amp; Modes&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2--options-modes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2--options-modes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Option&lt;/th&gt;
+          &lt;th&gt;Value Type&lt;/th&gt;
+          &lt;th&gt;Range / Choices&lt;/th&gt;
+          &lt;th&gt;Details&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Quick‑Slots&lt;/td&gt;
+          &lt;td&gt;Three toggles&lt;/td&gt;
+          &lt;td&gt;A, B, C&lt;/td&gt;
+          &lt;td&gt;Hold three LUTs per preset for instant A/B/C.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;LUT Library&lt;/td&gt;
+          &lt;td&gt;File list&lt;/td&gt;
+          &lt;td&gt;Unlimited &lt;code&gt;.cube&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Managed in &lt;strong&gt;Organizer › Display LUTs&lt;/strong&gt;.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Bypass&lt;/td&gt;
+          &lt;td&gt;Toggle&lt;/td&gt;
+          &lt;td&gt;Off / On&lt;/td&gt;
+          &lt;td&gt;Temporarily disables LUT without clearing slot.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;When you replace a LUT, CineMon validates its cube size and bit‑depth, then stores it inside the app container so you can unplug network drives without “LUT missing” warnings.  The &lt;strong&gt;Bypass&lt;/strong&gt; toggle blinks the image to log for one second—handy for teaching students how a grade affects dynamics.&lt;/p&gt;
+&lt;h2&gt;3  Tips, Best Practices &amp;amp; Use‑Cases&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3--tips-best-practices-usecases&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3--tips-best-practices-usecases&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Slot 1 usually carries the camera manufacturer’s tech LUT; Slot 2 a show look from the colourist; Slot 3 a “print stock” for fun.  During dailies reviews, operators swipe between LUT presets (Grid, False‑Color, etc.) and the quick‑slots survive, so you can compare log and graded images under the same scopes.  Remember to note which slot was live when capturing frame‑grabs—the PNG embeds that info in its metadata for editorial.&lt;/p&gt;
+&lt;h2&gt;4  Related Topics&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4--relatedtopics&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4--relatedtopics&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;image-adjust.md&#34; &gt;&lt;code&gt;image-adjust.md&lt;/code&gt;&lt;/a&gt; – refine exposure after the LUT&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../presets.md&#34; &gt;&lt;code&gt;presets.md&lt;/code&gt;&lt;/a&gt; – where LUTs are organised and shared&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>False Color</title>
+      <link>http://localhost:1313/docs/tools/false-color/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/tools/false-color/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;1  Overview / Purpose &amp;amp; Usage&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1--overview-purpose-usage&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1--overview-purpose-usage&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;False Color remaps luma to rainbow‑style bands so operators &lt;em&gt;see&lt;/em&gt; exposure instead of deciphering numbers.  Enable via the &lt;strong&gt;FC&lt;/strong&gt; icon; CineMon overlays a semi‑transparent legend at screen right and colours pixels according to the active gradient.  Drag the icon up to swap gradients or open the node‑based editor.&lt;/p&gt;
+&lt;h2&gt;2  Options &amp;amp; Modes&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2--options-modes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2--options-modes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Option&lt;/th&gt;
+          &lt;th&gt;Value Type&lt;/th&gt;
+          &lt;th&gt;Range / Choices&lt;/th&gt;
+          &lt;th&gt;Description&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Gradient Library&lt;/td&gt;
+          &lt;td&gt;List&lt;/td&gt;
+          &lt;td&gt;Built‑in presets + user&lt;/td&gt;
+          &lt;td&gt;Choose which colour set to use.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Node Editor&lt;/td&gt;
+          &lt;td&gt;GUI&lt;/td&gt;
+          &lt;td&gt;Drag nodes, pick colours&lt;/td&gt;
+          &lt;td&gt;Redefine what IRE maps to which colour.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Legend&lt;/td&gt;
+          &lt;td&gt;Toggle&lt;/td&gt;
+          &lt;td&gt;On / Off&lt;/td&gt;
+          &lt;td&gt;Shows live IRE‑colour correspondence.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Gradient Library&lt;/strong&gt; ships with popular maps: Atomos, SmallHD, and a neutral CineMon default.  Duplicating a gradient opens the &lt;strong&gt;Node Editor&lt;/strong&gt;, where each node sits at an IRE coordinate.  Drag a node to 41 IRE and colour it green—now middle grey shows bright lime, a cue most operators internalise faster than reading spot numbers.  The &lt;strong&gt;Legend&lt;/strong&gt; can be hidden once the team memorises the palette, freeing screen space.&lt;/p&gt;
+&lt;h2&gt;3  Tips, Best Practices &amp;amp; Use‑Cases&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3--tips-best-practices-usecases&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3--tips-best-practices-usecases&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Calibrate a gradient to your camera’s log curve: set 95 IRE to hot pink so clipped highlights scream at you.  Export the gradient—CineMon saves a lightweight JSON—and AirDrop to every iPad on set, ensuring DIT, DP, and Client monitor speak the same exposure language.  Pair False Color with &lt;strong&gt;Spot Meter&lt;/strong&gt; to cross‑check numeric EV against colour bands for bulletproof exposure decisions.&lt;/p&gt;
+&lt;h2&gt;4  Related Topics&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4--relatedtopics&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4--relatedtopics&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;zebras.md&#34; &gt;&lt;code&gt;zebras.md&lt;/code&gt;&lt;/a&gt; – stripe warnings that complement colour bands&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;spot-meter.md&#34; &gt;&lt;code&gt;spot-meter.md&lt;/code&gt;&lt;/a&gt; – numeric EV to validate the colours&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Spot Meter</title>
+      <link>http://localhost:1313/docs/tools/spot-meter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/tools/spot-meter/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;1  Overview / Purpose &amp;amp; Usage&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1--overview-purpose-usage&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1--overview-purpose-usage&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;CineMon’s &lt;strong&gt;Spot Meter&lt;/strong&gt; places two draggable probes labelled “A” and “B” on the frame and reports their luma in Exposure Value units relative to middle grey.  Tap the &lt;strong&gt;Spot&lt;/strong&gt; icon; two translucent circles appear.  Drag them over any pixel—values update in the corner HUD, along with a live A/B ratio that helps lighting techs balance key and fill.&lt;/p&gt;
+&lt;h2&gt;2  Options &amp;amp; Modes&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2--options-modes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2--options-modes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Option&lt;/th&gt;
+          &lt;th&gt;Value Type&lt;/th&gt;
+          &lt;th&gt;Range / Choices&lt;/th&gt;
+          &lt;th&gt;Use Case&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;EV Display&lt;/td&gt;
+          &lt;td&gt;Toggle&lt;/td&gt;
+          &lt;td&gt;HUD On / Off&lt;/td&gt;
+          &lt;td&gt;Hides numbers for client feed.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Ratio Display&lt;/td&gt;
+          &lt;td&gt;Toggle&lt;/td&gt;
+          &lt;td&gt;HUD On / Off&lt;/td&gt;
+          &lt;td&gt;Shows difference between probes as a multiplier.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Probe Colour&lt;/td&gt;
+          &lt;td&gt;RGBA swatch&lt;/td&gt;
+          &lt;td&gt;Full palette&lt;/td&gt;
+          &lt;td&gt;Tint of the probe outlines.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Turning off &lt;strong&gt;EV Display&lt;/strong&gt; leaves the rings but removes numbers—handy when the feed routes to big venue screens.  &lt;strong&gt;Ratio Display&lt;/strong&gt; simplifies maths: if you want a 1:2 key‑to‑fill, drag B until the ratio reads &lt;strong&gt;2.0 ×&lt;/strong&gt;; adjust fill light until satisfied.  Colouring the probes orange or teal makes them pop against both warm and cool scenes.&lt;/p&gt;
+&lt;h2&gt;3  Tips, Best Practices &amp;amp; Use‑Cases&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3--tips-best-practices-usecases&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3--tips-best-practices-usecases&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Lighting designers drop Probe A on talent’s key side cheekbone and Probe B on fill side; they dim or brighten the fill light until the ratio hits the look bible—often 1:3 for drama.  For product spots, place a probe on packaging highlights and drag the other over reflective surfaces; the EV delta instantly shows whether the print stays legible.&lt;/p&gt;
+&lt;h2&gt;4  Related Topics&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4--relatedtopics&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4--relatedtopics&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;false-color.md&#34; &gt;&lt;code&gt;false-color.md&lt;/code&gt;&lt;/a&gt; – visual confirmation of numeric EV&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../scopes/histogram.md&#34; &gt;&lt;code&gt;histogram.md&lt;/code&gt;&lt;/a&gt; – full‑frame luma distribution&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Histogram</title>
+      <link>http://localhost:1313/docs/scopes/histogram/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/scopes/histogram/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;1  Overview / Purpose &amp;amp; Usage&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1--overview-purpose-usage&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1--overview-purpose-usage&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The &lt;strong&gt;Histogram&lt;/strong&gt; graphs how many pixels sit at each brightness value, offering an at‑a‑glance sanity check that highlights aren’t clipping and shadows aren’t crushed.  Activate it from the Scopes bar; the floating window can be pinched to any size or double‑tapped for full‑screen.&lt;/p&gt;
+&lt;h2&gt;2  Options &amp;amp; Modes&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2--options-modes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2--options-modes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Mode&lt;/th&gt;
+          &lt;th&gt;What It Shows&lt;/th&gt;
+          &lt;th&gt;Typical Usage&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Luma&lt;/td&gt;
+          &lt;td&gt;Y′ only&lt;/td&gt;
+          &lt;td&gt;Quick exposure gauge.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;RGB Overlay&lt;/td&gt;
+          &lt;td&gt;Single trace, colour‑coded&lt;/td&gt;
+          &lt;td&gt;Channel balance in one glance.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;RGB Stacked&lt;/td&gt;
+          &lt;td&gt;Three individual traces&lt;/td&gt;
+          &lt;td&gt;Pinpoint per‑channel clipping.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Trace Gain&lt;/td&gt;
+          &lt;td&gt;0 – +12 dB&lt;/td&gt;
+          &lt;td&gt;Boost low‑contrast scenes.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Reticle Colour&lt;/td&gt;
+          &lt;td&gt;Any&lt;/td&gt;
+          &lt;td&gt;Match ambient light.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Background Alpha&lt;/td&gt;
+          &lt;td&gt;0 – 100 %&lt;/td&gt;
+          &lt;td&gt;Fade scope to minimise distraction.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Switching between &lt;strong&gt;Luma&lt;/strong&gt; and &lt;strong&gt;RGB&lt;/strong&gt; is immediate; CineMon maintains history so when you return to RGB you pick up right where you left off.  Increasing &lt;strong&gt;Trace Gain&lt;/strong&gt; can reveal subtle mid‑tone detail on Log footage that otherwise hugs the floor.&lt;/p&gt;
+&lt;h2&gt;3  Tips, Best Practices &amp;amp; Use‑Cases&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3--tips-best-practices-usecases&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3--tips-best-practices-usecases&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Full‑screen Histogram mode on a reference OLED makes an unbeatable lighting briefing tool: slide the lights until the histogram bell curve centres around 40–60 IRE, guaranteeing the grade has wiggle room.  Pair RGB Stacked with &lt;strong&gt;Display LUT Bypass&lt;/strong&gt; to watch how the grade shifts distribution—useful when teaching new ACs about colour science.&lt;/p&gt;
+&lt;h2&gt;4  Related Topics&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4--relatedtopics&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4--relatedtopics&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;waveform.md&#34; &gt;&lt;code&gt;waveform.md&lt;/code&gt;&lt;/a&gt; – spatial exposure view&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../../tools/zebras.md&#34; &gt;&lt;code&gt;zebras.md&lt;/code&gt;&lt;/a&gt; – overlay clipping warnings on top of the live picture&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Waveform</title>
+      <link>http://localhost:1313/docs/scopes/waveform/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/scopes/waveform/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;1  Overview / Purpose &amp;amp; Usage&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1--overview-purpose-usage&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1--overview-purpose-usage&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Where the Histogram shows how &lt;em&gt;much&lt;/em&gt; brightness exists, the &lt;strong&gt;Waveform&lt;/strong&gt; shows &lt;em&gt;where&lt;/em&gt; that brightness sits across the image width.  Activate via the Scopes bar; the scope appears as a strip you can resize or full‑screen.  Shadows anchor at the bottom of the graph, highlights at the top, so a rising coastline indicates a bright sky across the top of frame.&lt;/p&gt;
+&lt;h2&gt;2  Options &amp;amp; Modes&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2--options-modes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2--options-modes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Option&lt;/th&gt;
+          &lt;th&gt;Choices&lt;/th&gt;
+          &lt;th&gt;Intended Use&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Display Type&lt;/td&gt;
+          &lt;td&gt;Luma, Colourized Luma, RGB, RGB Parade&lt;/td&gt;
+          &lt;td&gt;Progressive detail for exposure and balance.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Instant Extents&lt;/td&gt;
+          &lt;td&gt;Toggle&lt;/td&gt;
+          &lt;td&gt;Overlays min/max envelope—great for flickering lights.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Trace Brightness&lt;/td&gt;
+          &lt;td&gt;0 – 100 %&lt;/td&gt;
+          &lt;td&gt;Brighten trace on sunny sets.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Background Alpha&lt;/td&gt;
+          &lt;td&gt;0 – 100 %&lt;/td&gt;
+          &lt;td&gt;Fade background so image shows through.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Colourized Luma&lt;/strong&gt; keeps luma shape but colours pixels by hue—ideal for spotting colour contamination in gradients.  &lt;strong&gt;RGB Parade&lt;/strong&gt; separates channels so you can ride white‑balance: align the three waveforms and neutrals snap into place.&lt;/p&gt;
+&lt;h2&gt;3  Tips, Best Practices &amp;amp; Use‑Cases&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3--tips-best-practices-usecases&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3--tips-best-practices-usecases&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Keying a talking‑head against a window?  Watch the right side of the waveform: if highlights scrape 100 IRE while the face hovers at 50, you know contrast is within broadcast safe.  For music videos, enable &lt;strong&gt;Instant Extents&lt;/strong&gt;; flashing LEDs produce a bright envelope that warns how far peaks reach, without cluttering the main trace.&lt;/p&gt;
+&lt;h2&gt;4  Related Topics&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4--relatedtopics&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4--relatedtopics&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;histogram.md&#34; &gt;&lt;code&gt;histogram.md&lt;/code&gt;&lt;/a&gt; – statistical companion&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;vectorscope.md&#34; &gt;&lt;code&gt;vectorscope.md&lt;/code&gt;&lt;/a&gt; – chroma balance after luma is locked&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Vectorscope</title>
+      <link>http://localhost:1313/docs/scopes/vectorscope/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/scopes/vectorscope/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;1  Overview / Purpose &amp;amp; Usage&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1--overview-purpose-usage&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1--overview-purpose-usage&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The &lt;strong&gt;Vectorscope&lt;/strong&gt; maps hue and saturation onto a polar graph: angle equals hue, distance equals saturation.  Enable it from the Scopes bar; a circular plot appears, complete with skin‑tone line at roughly 11 degrees.  Drag the scope or full‑screen it for colour‑critical work.&lt;/p&gt;
+&lt;h2&gt;2  Options &amp;amp; Modes&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2--options-modes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2--options-modes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Option&lt;/th&gt;
+          &lt;th&gt;Choices&lt;/th&gt;
+          &lt;th&gt;Use Case&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Display&lt;/td&gt;
+          &lt;td&gt;Mono, Colour&lt;/td&gt;
+          &lt;td&gt;Mono for clean shape; Colour for teaching hue angles.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Targets&lt;/td&gt;
+          &lt;td&gt;Boxes, Polar Grid, ×2 Markers&lt;/td&gt;
+          &lt;td&gt;Guides for legal and oversaturated levels.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Extents&lt;/td&gt;
+          &lt;td&gt;Toggle&lt;/td&gt;
+          &lt;td&gt;Shows envelope of flashing colours.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Trace Brightness&lt;/td&gt;
+          &lt;td&gt;0 – 100 %&lt;/td&gt;
+          &lt;td&gt;Visibility control.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Enabling &lt;strong&gt;Targets&lt;/strong&gt; reveals broadcast boxes (75 % sat), while &lt;strong&gt;×2 Markers&lt;/strong&gt; double their radius, helping judge HDR grade overshoot.  &lt;strong&gt;Extents&lt;/strong&gt; is invaluable under concert strobes: saturation spikes are drawn as a faint ghost beyond the steady trace, highlighting where neons risk gamut clipping.&lt;/p&gt;
+&lt;h2&gt;3  Tips, Best Practices &amp;amp; Use‑Cases&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3--tips-best-practices-usecases&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3--tips-best-practices-usecases&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Place a colour chart in frame; switch to &lt;strong&gt;Colour&lt;/strong&gt; mode and twist the camera’s white‑balance until the grey chip sits on the centre dot—instant neutral.  To monitor skin, keep an eye on the 11 degree line: as long as the blob touches it, complexions look natural even with funky lighting.&lt;/p&gt;
+&lt;h2&gt;4  Related Topics&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4--relatedtopics&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4--relatedtopics&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../../tools/false-color.md&#34; &gt;&lt;code&gt;false-color.md&lt;/code&gt;&lt;/a&gt; – exposure colour mapping that complements hue mapping&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../../tools/display-lut.md&#34; &gt;&lt;code&gt;display-lut.md&lt;/code&gt;&lt;/a&gt; – swap LUTs and watch the vectorscope adjust&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Quad Scope View</title>
+      <link>http://localhost:1313/docs/scopes/quad-scope/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/scopes/quad-scope/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;1  Overview / Purpose &amp;amp; Usage&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1--overview-purpose-usage&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1--overview-purpose-usage&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Sometimes you need every scope at once.  The &lt;strong&gt;Quad Scope View&lt;/strong&gt; arranges Waveform, Vectorscope, Histogram, and Parade into a 2 × 2 grid with one tap of the Quad icon.  The layout is fixed so your muscle memory knows exactly where to glance for luma vs chroma.&lt;/p&gt;
+&lt;h2&gt;2  Options &amp;amp; Modes&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2--options-modes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2--options-modes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Each individual scope retains its own settings—double‑tap the Histogram quadrant to switch from Luma to RGB; CineMon updates just that window.  Trace brightness and background alpha obey the values you last set in floating mode.&lt;/p&gt;
+&lt;h2&gt;3  Tips, Best Practices &amp;amp; Use‑Cases&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3--tips-best-practices-usecases&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3--tips-best-practices-usecases&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;DIT carts often park an iPad in Quad mode and mirror it via Sidecar to a MacBook, giving clients the hero image while the DIT views scopes.  When switching back to floating scopes CineMon restores their last positions, so your customised waveform width isn’t lost.&lt;/p&gt;
+&lt;h2&gt;4  Related Topics&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4--relatedtopics&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4--relatedtopics&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;waveform.md&#34; &gt;&lt;code&gt;waveform.md&lt;/code&gt;&lt;/a&gt; – one of the quadrants&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../../gestures.md&#34; &gt;&lt;code&gt;gestures.md&lt;/code&gt;&lt;/a&gt; – pinch to resize when scopes float&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

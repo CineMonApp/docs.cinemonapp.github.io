@@ -1,0 +1,63 @@
+baseURL: https://docs.cinemon.app/
+languageCode: en-us
+title: CineMon - Professional video monitor for iOS and Mac
+module:
+  imports:
+    - path: github.com/imfing/hextra
+params:
+  navbar:
+    displayTitle: false
+    displayLogo: true
+    logo:
+      path: images/CineMon-Logo-Horz-Dark-Bg-Small.png
+      dark: images/CineMon-Logo-Horz-Dark-Bg-Small.png
+      link: /
+      width: 150
+      height: 37.5
+  # Search
+  search:
+    enable: true
+    type: flexsearch
+    flexsearch:
+      # index page by: content | summary | heading | title
+      index: content
+  footer:
+    displayPoweredBy: false
+menu:
+  main:
+    - name: Search
+      weight: 0
+      params:
+        type: search
+    - name: Home
+      url: https://www.cinemon.app/
+      weight: 1
+    - name: Features
+      url: https://www.cinemon.app/#details-spotmeters
+      weight: 2
+    - name: Download
+      url: https://www.cinemon.app/#purchase
+      weight: 3
+    - name: Partners
+      url: https://www.cinemon.app/partners/
+      weight: 4
+    - name: Design
+      weight: 6
+      url: https://www.cinemon.app/#design
+    - name: Demo
+      weight: 7
+      url: https://www.cinemon.app/#demo
+    - name: Contact
+      weight: 8
+      url: https://www.cinemon.app/#footer
+  # sidebar:
+  #   - name: More
+  #     params:
+  #       type: separator
+  #     weight: 1
+  #   - name: "About"
+  #     pageRef: "/about"
+  #     weight: 2
+  #   - name: "Hugo Docs ↗"
+  #     url: "https://gohugo.io/documentation/"
+  #     weight: 3
