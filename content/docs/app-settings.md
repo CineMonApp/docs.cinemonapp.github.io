@@ -1,5 +1,5 @@
 ---
-title: Settings
+title: App Settings
 weight: 7
 ---
 
@@ -7,7 +7,7 @@ weight: 7
 
 ## Overview
 
-The **Settings** screen ({{< ipad >}})/window ({{< mac >}}) lets you configure global application settings. These settings apply regardless of which Preset is currently active.
+The **App Settings** screen ({{< ipad >}})/window ({{< mac >}}) lets you configure global application settings. These settings apply regardless of which Preset is currently active.
 
 ## General
 

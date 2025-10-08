@@ -24,5 +24,6 @@ The options let you tweak the effect. Use a lower threshold to identify and fix 
 | Background Plate | File browser | None | Loads an image behind the key. |
 
 ## Related Topics
+
 * [Zebras](/docs/tools/zebras)
 * [Spot Meters](/docs/tools/spot-meter)

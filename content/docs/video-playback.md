@@ -26,4 +26,4 @@ On {{< mac >}} (and {{< ipad >}} OS 26+) the following keyboard shortcuts are av
 
 ## Recent Files List
 
-CineMon can keep a list of recently accessed files for convenient access. You can configure how many items CineMon saves in the **General App Settings** screen.
+CineMon can keep a list of recently accessed files for convenient access. You can configure how many items CineMon saves in the [**App Settings**](/docs/app-settings) screen.

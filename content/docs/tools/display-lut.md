@@ -23,5 +23,6 @@ In some sets a **Show LUT** is used to apply a custom look to the camera image t
 > Use the cycle buttons to quickly audition different LUTs on the live image.
 
 ## Related Topics
+
 * [Organizer](/docs/organizer)
 * [Color Management](/docs/color-management)

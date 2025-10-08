@@ -9,7 +9,7 @@ weight: 50
 
 The Orientation tool allows you to flip the image horizontally, flop it vertically, or rotate it 90 degrees clockwise or counterclockwise. Useful in cases where the camera has to be rigged upside down or sideways, or when filming through a mirror.
 
-## 2. Options
+## Options
 
 {{< option-bar-sprite row="1" >}}
 

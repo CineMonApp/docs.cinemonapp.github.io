@@ -26,7 +26,7 @@ This section walks you through each area and region of the interface in detail.
 
 {{< screenshot name="main-pro" alt="Main Display Area" >}}
 
-Whenever there is no active video source, the **Main Display Area** shows the **Home Screen**, which contains a [**Sources Panel**](#sources-panel) and a link to the **CineMon** Store. To the right of the **Sources Panel** you'll find a help button (?). On {{< ipad >}}, you will also find a button to open the app's general settings.
+Whenever there is no active video source, the **Main Display Area** shows the **Home Screen**, which contains a [**Sources Panel**](#sources-panel) and a link to the **CineMon** Store. To the right of the **Sources Panel** you'll find a help button (?). On {{< ipad >}}, you will also find a button to open the [**App Settings**](/docs/app-settings).
 
 #### Sources Panel
 
@@ -78,7 +78,8 @@ The **Main Display Area** displays a single viewer by default, but CineMon {{< p
 | **Layout** | **Displays** |
 |------------|--------------|
 | Single View (Default) | One viewer at a time. |
-| 2x1 Grid (a.k.a. side-by-side) | Two viewers, arranged side by side, horizontally. |
+| 1x2 Grid | Two viewers, arranged one over the other, vertically (a.k.a. top-bottom). |
+| 2x1 Grid | Two viewers, arranged side by side, horizontally (a.k.a. side-by-side). |
 | 2x2 Grid | Four Viewers, arranged in a grid with two columns and two rows. |
 
 The size of the panels in multi-view layouts can be changed by *dragging* the divider between the panels.

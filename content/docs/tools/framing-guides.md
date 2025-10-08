@@ -63,7 +63,7 @@ To monitor two aspect ratios at once:
 * Configure Frame A & B and use a 2x1 (side-by-side) with crop viewers to to visualize both crops.
 * Configure two different presets, each with a different Framing Guide configuration, and switch between them.
 
-## 4. Related Topics
+## Related Topics
 
 * [**Specialized Crop Viewers**](/docs/user-interface#specialized-viewers)
 * [**Composition Guides**](/docs/tools/composition-guides)

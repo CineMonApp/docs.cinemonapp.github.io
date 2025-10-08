@@ -9,9 +9,9 @@ weight: 10
 
 CineMon for {{< mac >}} and CineMon for {{< ipad >}} share the exact same toolset and functionality. However, there are some minor UI differences to optimize the user experience for each platform.
 
-For instance, the Mac supports a wider variety of monitor sizes and resolutions, more hardware accessories (such as the Blackmagic UltraStudio/Decklink line), and is very mouse centric. While the iPad UI is more optimized for touch.
+For instance, the Mac supports a wider variety of monitor sizes and resolutions, more hardware accessories (such as the Blackmagic UltraStudio/Decklink line), and is mouse centric. While the iPad UI is optimized for touch.
 
-However, iOS 26/macOS 26 (Tahoe) has minimized these differences. The iOS 26 version of CineMon supports keyboard shortcuts and a resizable window.
+However, iOS 26/macOS 26 (Tahoe) has minimized these differences. The iOS 26 version of CineMon supports a main menu and keyboard shortcuts.
 
 ## Cross-Platform Compatibility
 
