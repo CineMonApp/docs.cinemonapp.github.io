@@ -7,7 +7,7 @@ weight: 9
 
 ## Overview
 
-Besided live video monitoring, CineMon also plays back recorded media files. All monitoring functions work exactly the same in playback mode.
+Besides live video monitoring, CineMon also plays back recorded media files. All monitoring functions work exactly the same in playback mode.
 
 ## Transport Controls
 

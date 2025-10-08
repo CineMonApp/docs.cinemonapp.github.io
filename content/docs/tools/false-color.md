@@ -41,4 +41,3 @@ CineMon supports an unlimited number of False Color Schemes, in addition to the 
 ## Tips
 
 You can calibrate gradients to your specific camera’s log curve. For example, some camera log profiles may render middle gray at 38 IRE. Setting a green color band around that value can simplify getting a neutral exposure when an 18% gray card in the shot, by adjusting lighting or camera settings until the gray card looks green.
-

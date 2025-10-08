@@ -23,7 +23,7 @@ Click/Tap the following image to navigate to the App Store and download CineMon:
 CineMon's more advanced features can be unlocked with an in-app purchase. The app offers two different models depending on your preferences and needs:
 
 - Buy individual {{< pro-pill >}} tool bundles to unlock lifetime access to their included features.
-- Susbscribe to CineMon {{< pro-pill >}} ***Pass*** to unlock **ALL** PRO tools and advanced features.
+- Subscribe to CineMon {{< pro-pill >}} ***Pass*** to unlock **ALL** PRO tools and advanced features.
 
 ### Use It Everywhere
 
@@ -42,9 +42,9 @@ In-App purchases become available on all devices that use the same Apple account
 
 The CineMon documentation includes screenshots throughout. All screenshots are taken with an 11 inch iPad Pro, unless it is necessary to illustrate platform specific differences. Your screen might not match the screenshots exactly.
 
-In a few cases the CineMon interface differs slighltly between the iPad and Mac versions. When it is necessary to distinguish between the two, an {{< ipad >}} or {{< mac >}} colored label will be used to mark the difference.
+In a few cases the CineMon interface differs slightly between the iPad and Mac versions. When it is necessary to distinguish between the two, an {{< ipad >}} or {{< mac >}} colored label will be used to mark the difference.
 
-Advanced features that require an in-app puchase will be marked with a {{< pro-pill >}} label.
+Advanced features that require an in-app purchase will be marked with a {{< pro-pill >}} label.
 
 ## Documentation Sections
 

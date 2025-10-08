@@ -14,7 +14,7 @@ Most modern cameras output HDMI or SDI video. To connect these signals to an iPa
 
 Some cameras and wireless video receivers can output UVC video directly via USB. In that case, no adapter is needed.
 
-> **UVC Video Tip:** If the video source is avaialble as a camera and visible in FaceTime it should work in CineMon.
+> **UVC Video Tip:** If the video source is available as a camera and visible in FaceTime it should work in CineMon.
 
 CineMon also supports other video input options. For instance, Accsoon SeeMo devices are supported via direct integration with the Accsoon SDK. Visit the [Partners Page](https://www.cinemon.app/partners/) on the CineMon website for information on supported partner products.
 
@@ -43,11 +43,11 @@ There is no perfect video capture device. The right adapter for you will depend 
 | Output resolutions | HD (1080), 4K (2160) |
 | Supported frame rates | 10-60 |
 
-There are many video capture adapter options available today in a wide range of price points and quality. The good news is that, as new products hit the market, you can easily replace the adapter without changing anything else about yoru monitoring solution. You get to keep all your your settings, configurations, and workflows.
+There are many video capture adapter options available today in a wide range of price points and quality. The good news is that, as new products hit the market, you can easily replace the adapter without changing anything else about your monitoring solution. You get to keep all your your settings, configurations, and workflows.
 
 ### Tradeoffs
 
-Typical tradeoffs are cost vs. image quality, and resoulution vs. latency. Generally, cheaper adapters deliver more compressed video signals with lower color accuracy. 4K resolution signals tend to have more latency than HD ones.
+Typical tradeoffs are cost vs. image quality, and resolution vs. latency. Generally, cheaper adapters deliver more compressed video signals with lower color accuracy. 4K resolution signals tend to have more latency than HD ones.
 
 As of 2025, Inexpensive adapters ($10-$30) can be perfectly adequate for general monitoring and composition. Some of the newer products tend to have relatively low latency, but they tend to suffer from color shifts (they generally bias towards green in the shadows) and show compression artifacts. Slightly more expensive adapters (in the $100 range) can have very good color accuracy and low compression, which is great for image analysis, but may introduce more latency (~2-3 frames), which is not ideal for focus pulling. There are products in the ~$200 range that have excellent color accuracy, no compression, and very low latency. Technology evolves fast and future products will surely improve in all of these dimensions.
 

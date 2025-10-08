@@ -9,9 +9,9 @@ weight: 10
 
 CineMon for {{< mac >}} and CineMon for {{< ipad >}} share the exact same toolset and functionality. However, there are some minor UI differences to optimize the user experience for each platform.
 
-For instance, the Mac supports a wider varietly monitor sizes and resolutions, more hardware accesories (such as the Blackmagic UltraStudio/Decklink line), and is very mouse centric. While the iPad UI is more optimized for touch.
+For instance, the Mac supports a wider variety of monitor sizes and resolutions, more hardware accessories (such as the Blackmagic UltraStudio/Decklink line), and is very mouse centric. While the iPad UI is more optimized for touch.
 
-However, iOS 26/macOS 26 (Tahoe) has minimized these differences. The iOS 26 version of CineMon supports keyboard shortcuts and a resizeable window.
+However, iOS 26/macOS 26 (Tahoe) has minimized these differences. The iOS 26 version of CineMon supports keyboard shortcuts and a resizable window.
 
 ## Cross-Platform Compatibility
 
@@ -29,5 +29,5 @@ By design, CineMon is highly flexible and supports many different use cases, wit
 | Handheld monitor | Cinematographer | An iPad Pro rigged with a wireless video receiver. |
 | Video Village | Director, Cinematographer, Producers, others | A Mac mini with multiple large OLED monitors. |
 | DIT Cart | DITs | Mac minis with multiple monitors and a myriad of scope arrangements. |
-| Review Station | Script, Gaffer, Wardrobe, others | An iPad rigged with a wireless vieo receiver. |
+| Review Station | Script, Gaffer, Wardrobe, others | An iPad rigged with a wireless video receiver. |
 | Dailies/post preview | Editor, Colorist | MacBook Pro |

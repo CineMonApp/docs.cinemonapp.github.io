@@ -10,7 +10,7 @@ The **Grid Guide** overlays a series of evenly-spaced horizontal and vertical li
 
 The tool's options allow you to adjust the number of horizontal and vertical lines, and the color and opacity of the grid.
 
-Perhaps the most common setup is 2 horizontal and 2 vertical lines to create a **Rule of Thirds** layout. But you can tweak both axis indepenently up to 10 lines.
+Perhaps the most common setup is 2 horizontal and 2 vertical lines to create a **Rule of Thirds** layout. But you can tweak both axis independently up to 10 lines.
 
 ## Options
 

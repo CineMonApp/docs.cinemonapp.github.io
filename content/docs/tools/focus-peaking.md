@@ -15,13 +15,13 @@ When this tool is on, features of the image that are in focus are highlighted wi
 
 | Option | Values | Default | Description |
 |--------|--------|---------|-------------|
-| Threshhold | `0%`-`100%` | Low | Control the intensity of the peaking effect. |
-| Peaking Colour | Color | Red | The color of the peaking highlight. |
+| Threshold | `0%`-`100%` | Low | Control the intensity of the peaking effect. |
+| Peaking Color | Color | Red | The color of the peaking highlight. |
 | Edges Only | `On`/`Off` | Off | Turns on the edges only mode over a black background. |
 
 ## Tips
 
-Activating **Image Adjust → Saturation 0%** converts the scene to monochrome, letting the peaking colour pop against a gray image.
+Activating **Image Adjust → Saturation 0%** converts the scene to monochrome, letting the peaking color pop against a gray image.
 
 ## Related Topics
 

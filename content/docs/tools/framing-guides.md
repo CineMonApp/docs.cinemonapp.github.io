@@ -23,7 +23,7 @@ The options drawer offers a few aspect ratio presets as shortcuts, including squ
 
 {{< screenshot name="framing-custom-aspect" alt="Framing Guides Tool" >}}
 
-Other options allow you to configure how the guides are rendered, with independet color and opacity controls for the frame outline and the out-of-frame regions (or matte).
+Other options allow you to configure how the guides are rendered, with independent color and opacity controls for the frame outline and the out-of-frame regions (or matte).
 
 To edit the guides, the options drawer needs to be open. It shows controls for one guide at at time. You select which guide to edit (labeled `Frame A` or `Frame B` on screen) with the segmented picker. The one currently being edited will have a solid border and the other one will have a dashed appearance.
 
@@ -48,7 +48,7 @@ Even when the Framing Guide tool is inactive, you can use the [**Specialized Cro
 | Guide Selector | `A`/`B` | `A` | Select which Framing Guide to edit. |
 | Enable | `On`/`Off` | `On` (for `A`), `Off` (for `B`) | Enable or disable the current Framing Guide. |
 | Custom Aspect Ratio | Numerator/Denominator Fraction | - | Shows a pop-over to customize the aspect ratio as a fraction. |
-| Lock Aspect Ratio | `On`/`Off` | `Off` | Locks the aspect ratio so that resizing operatoins maintain the frame proportions. |
+| Lock Aspect Ratio | `On`/`Off` | `Off` | Locks the aspect ratio so that resizing operations maintain the frame proportions. |
 | Matte Color | Color/Opacity | Black, 90% | The color and opacity of the matte that is rendered over the portion of the image that falls outside the guide. |
 | Frame Color | Color/Opacity | White, 50% | The color of the frame guide itself. |
 | Aspect Ratio Presets | [`2.39:1`, `1.85:1`, `16:9`, `1.66:1`, `3:2`, `4:3`, `1:1`, `9:16`] | - | Shortcuts to popular, full-screen aspect ratios. |

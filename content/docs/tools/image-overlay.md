@@ -30,4 +30,4 @@ Additional options provide control of the opacity, wipe amount and angle of the 
 | Wipe Amount | `0%` to `100%` | `100%` | Controls the overlay wipe amount across the image. |
 | Wipe Angle | `-90°` to `+90°` | `0°` | Controls the angle of the wipe. |
 | Swap Source/Snapshot | `On`/`Off` | `Off` | Inverts the compositing order of the source and snapshot. |
-| Difference Color | Color | Red | Controls the color of the difference hightlight. |
+| Difference Color | Color | Red | Controls the color of the difference highlight. |

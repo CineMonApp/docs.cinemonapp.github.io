@@ -26,7 +26,7 @@ This section walks you through each area and region of the interface in detail.
 
 {{< screenshot name="main-pro" alt="Main Display Area" >}}
 
-Whenever there is no active video source, the **Main Display Area** shows the **Home Screen**, which contains a [**Sources Panel**](#sources-panel) and a link to the **CineMon** Store. To the right of the **Sources Panel** you'll find a help buttom (?). On {{< ipad >}}, you will also find a button to open the app's general settings.
+Whenever there is no active video source, the **Main Display Area** shows the **Home Screen**, which contains a [**Sources Panel**](#sources-panel) and a link to the **CineMon** Store. To the right of the **Sources Panel** you'll find a help button (?). On {{< ipad >}}, you will also find a button to open the app's general settings.
 
 #### Sources Panel
 
@@ -42,7 +42,7 @@ By default, CineMon displays a single image viewer that renders all video assist
 
 #### Zoom Control
 
-You can magify the image by using a *pinch-to-zoom* gesture on the image itself, or by using the **Zoom Control** (🔍) on the **Video Assist Toolbar**.
+You can magnify the image by using a *pinch-to-zoom* gesture on the image itself, or by using the **Zoom Control** (🔍) on the **Video Assist Toolbar**.
 
 When zoomed in, a mini-map appears and a red rectangle indicates the portion of the image that is currently visible in the viewer. You can navigate to other areas of the image by dragging the image itself, or by dragging the red rectangle in the mini-map. Zoom all the way out to turn off the mini-map.
 
@@ -50,7 +50,7 @@ When zoomed in, a mini-map appears and a red rectangle indicates the portion of 
 
 #### Specialized Viewers
 
-CineMon also includes other types of specialized viewers with specific monitoring functions. To change the active viewer type {{< ipad >}} Long Press {{< mac >}} Righ-click on the viewer to bring up a context menu with all available viewers.
+CineMon also includes other types of specialized viewers with specific monitoring functions. To change the active viewer type {{< ipad >}} Long Press {{< mac >}} Right-click on the viewer to bring up a context menu with all available viewers.
 
 {{< screenshot name="layout-2x1-custom-2" alt="Viewer Menu" >}}
 
@@ -119,7 +119,7 @@ CineMon has two main toolbars: the **Assist Toolbar** and the **Status Toolbar**
 | **Region** | **Location** | **Purpose** |
 |------------|--------------|-------------|
 | Sources Panel | Left | Use this popover to switch between video sources. Use the power button **⏻** to turn a source on or off. The active source will have a green power button. Turning off the active source will take you back to the **Home Screen** on the **Main Display Area**. |
-| Playback Transport Controls | Center | Playback transport controls will appear here when in playback mode. Transport controls include a play/pause button, fast forward/rewind buttons (tap/click multiple times to chage playback speed), and a progress/scrub bar. |
+| Playback Transport Controls | Center | Playback transport controls will appear here when in playback mode. Transport controls include a play/pause button, fast forward/rewind buttons (tap/click multiple times to change playback speed), and a progress/scrub bar. |
 | Scopes & Layout | Right | Toggle the visibility of the floating **Histogram**, **Waveform Monitor**, and **Vectorscope** in single view layout. Use the **Display Layout** menu to switch between single, 2x1 (side-by-side), and 2x2 (grid) views. |
 
 ## Tool Option Drawers

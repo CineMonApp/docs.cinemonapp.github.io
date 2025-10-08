@@ -18,7 +18,7 @@ This tool provides image adjustment controls. The first set of sliders allow you
 | Mode | `Light`/`Color` | Light | Selects which set of sliders are visible. |
 | Exposure | `-4`-`+4`EV | 0 EV | Photometrically adjusts exposure in EVs or F-Stops. |
 | Contrast | `0`-`2` | 1 | Adjusts the image contrast. |
-| Saturation | `0`-`2` | 1 | Ajusts the image saturation. 0 is fully desaturated or B&W. |
+| Saturation | `0`-`2` | 1 | Adjusts the image saturation. 0 is fully desaturated or B&W. |
 | Temperature | `-4000`-`+4000`K | 0 K | Adjusts the color temperature in Kelvin. |
 | Tint | `-100`-`+100` | 0 | Adjusts the image tint from green to magenta. |
 | Hue | `0`-`100` | 50 | Preforms a hue rotation in CW or CCW directions. |

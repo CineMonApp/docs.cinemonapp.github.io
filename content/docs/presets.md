@@ -39,11 +39,11 @@ To manage your Presets the following actions are available from the **Preset Act
 | **Revert** | Reverts any configuration changes to the last saved version of the preset. | Only available if the configuration has changed. |
 | **Rename** | Enters rename mode to allow you to change the Preset name. | |
 | **Delete** | Deletes the active Preset. | |
-| **Export** | Opens an export dialog to save the active Preset to the file systeam. | Only available from the **Organizer**. |
+| **Export** | Opens an export dialog to save the active Preset to the file system. | Only available from the **Organizer**. |
 
 ## Preset Settings
 
-The **Settings** tab on the **Sidebar** shows a series of controls to configure the signal processing pipeline, performance optimization settings, and UI. For instnace, This is where you will configure your camera or input signal **Log Profile**, which is required for the correct functioning of several features.
+The **Settings** tab on the **Sidebar** shows a series of controls to configure the signal processing pipeline, performance optimization settings, and UI. For instance, This is where you will configure your camera or input signal **Log Profile**, which is required for the correct functioning of several features.
 
 | Control | Description | Values |
 |---------|--------|-------------|
@@ -68,7 +68,7 @@ The **Settings** tab on the **Sidebar** shows a series of controls to configure 
 | Display LUT Interpolation | Interpolation type used when applying the monitoring Look LUTs. | `Standard`/`Tetrahedral` |
 | Limit to HD Resolution | Reduces the size of the input image to a maximum of 1080p (HD) | `On`/`Off` |
 | Toolbar Brightness | Dim the toolbar's brightness. | `10`–`100`% |
-| Show System Status Bar ({{< ipad >}} Only) | Show or hide the System Status Bar, which shows the date/time, WiFi signal strengh, Battery level, etc. | `On`/`Off` |
+| Show System Status Bar ({{< ipad >}} Only) | Show or hide the System Status Bar, which shows the date/time, WiFi signal strength, Battery level, etc. | `On`/`Off` |
 
 ### Input Gamma Notes
 

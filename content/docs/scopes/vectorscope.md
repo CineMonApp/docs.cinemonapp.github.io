@@ -26,8 +26,8 @@ The **Vectorscope** is a precision color measurement instrument that displays th
 | | 2x Zoom | Applies a 2x zoom the the scope trace. |
 | | Extents | Show an envelope of the min/max saturation values that might otherwise be difficult to see on the trace. |
 | | `All`/`Low`/`Mid`/`High` | Optionally filters the trace to show only the colors in the shadow areas (Low), the mid tones, or the highlights. |
-| | Low Range | Defines the IRE value threshhold for the Low filtering. |
-| | High Range | Defines the IRE value threshhold for the High filtering. |
+| | Low Range | Defines the IRE value threshold for the Low filtering. |
+| | High Range | Defines the IRE value threshold for the High filtering. |
 | Trace Brightness | Slider | Configures the brightness of the vectorscope trace. |
 | Window Settings | Size | Adjust the size of the floating window. |
 | | Opacity | Change the transparency of the floating window background. |

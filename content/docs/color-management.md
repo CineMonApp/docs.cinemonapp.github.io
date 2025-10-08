@@ -23,11 +23,11 @@ When the CST is turned on, the processing happens right after the **Calibration 
 
 > Features dependent on linear light processing, such as the **Spot Meters** and **Test Strip** will tap the image before the CST is applied.
 
-This feature is commonly used to convert from a camera log profile (e.g. Sony `SLog3`/`SGamut3.Cine`), also kown as a **Scene Referred** color space, to a range of tones and colors that look better on standard screens, also known as **Display Referred** space (e.g. `Rec.709`).
+This feature is commonly used to convert from a camera log profile (e.g. Sony `SLog3`/`SGamut3.Cine`), also known as a **Scene Referred** color space, to a range of tones and colors that look better on standard screens, also known as **Display Referred** space (e.g. `Rec.709`).
 
 Scene referred signals usually look flat and washed out, with low color saturation, which can make it more difficult to monitor on set. Applying a CST is a dependable, clinical way to preview the image, without introducing a creative look bias.
 
-Another popular way of achieving a similar result is by applying a Display Lookup Table (LUT), which CineMon supports. However, because of how LUTs work, they always involve a certain amount of creative manipulation by the author. So the transformed image often deviates from the pure mathematical precision of a CST, which may be what you uwant.
+Another popular way of achieving a similar result is by applying a Display Lookup Table (LUT), which CineMon supports. However, because of how LUTs work, they always involve a certain amount of creative manipulation by the author. So the transformed image often deviates from the pure mathematical precision of a CST, which may be what you want.
 
 We recommended that you test your Color Management workflow end-to-end before deciding which method is the best fit for your project.
 

@@ -17,7 +17,7 @@ Inspired by photochemical printing practices, this tool breaks up the image into
 |--------|--------|---------|-------------|
 | Strip Orientation | `Vertical`/`Horizontal` | `Vertical` | Orientation of the test strips. |
 | Number of Strips | `2`-`11` | `7` | The number of test strips to render. |
-| EV Delta | [`½`, `1`, `2`] | `½` | The EV or F-stop diffence between each test strip. |
+| EV Delta | [`½`, `1`, `2`] | `½` | The EV or F-stop difference between each test strip. |
 | Invert Direction | `On`/`Off` | `Off` | Invert the direction of exposure gradient (dark to light). Default when off is Left to Right/Top to Bottom depending on the orientation. |
 | Show Labels | `On`/`Off` | `On` | Show the EV/F-stop labels for each strip. |
 

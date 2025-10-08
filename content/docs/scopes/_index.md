@@ -7,7 +7,7 @@ weight: 40
 
 ## Overview
 
-The **Scopes** in CineMon are calibrated digital instruments that provide objective feedback on exposure, colour balance, and signal legality, complementing the subjective judgement you make by eye.
+The **Scopes** in CineMon are calibrated digital instruments that provide objective feedback on exposure, color balance, and signal legality, complementing the subjective judgement you make by eye.
 
 ## Available Scopes
 
