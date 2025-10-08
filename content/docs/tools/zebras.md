@@ -1,24 +1,29 @@
 ---
 title: Zebras
-weight: 23
+weight: 100
 ---
 
-## 1  Overview / Purpose & Usage
-Zebras layer diagonal stripes over pixels that fall above or below chosen luma thresholds.  Highlight zebras warn of clipping whites, shadow zebras flag crushed blacks.  Tap the **Zebra** icon; CineMon applies your last thresholds and colours.  Opening the drawer reveals dual sliders so you can tune each band with single‑digit precision.
+{{< screenshot name="zebras-all" alt="Zebras Tool All" >}}
 
-## 2  Options & Modes
-| Option | Value Type | Range | What It Does |
-|--------|-----------|-------|--------------|
-| Shadow Threshold | Percentage slider | **0 – 50 % IRE** | Pixels *below* this IRE show Shadow zebras. |
-| Highlight Threshold | Percentage slider | **50 – 110 % IRE** | Pixels *above* this IRE show Highlight zebras. |
-| Shadow Colour | RGBA swatch | Full palette | Tint of shadow stripes. |
-| Highlight Colour | RGBA swatch | Full palette | Tint of highlight stripes. |
+## Overview
 
-The slider labels display numeric IRE values as you drag.  For log curves, set *Highlight* roughly 5 IRE under the camera’s clipping code‑value (e.g., 93 IRE for ARRI LogC).  Shadow warnings usually sit one or two stops above the noise floor—about 10 IRE on typical cinema sensors.
+**Zebras** are an exposure assist tool that layer diagonal stripes over pixels that fall above or below chosen luma thresholds. The **Hi/Lo** mode can warn of clipping whites or crushed shadows. The **Band** mode highlights an IRE range, useful for nailing middle gray or skin tones.
 
-## 3  Tips, Best Practices & Use‑Cases
-Pull highlight zebras down slightly during sunset: a faint zebra on the sun means the grade can safely push exposure without losing texture.  In night shoots, enabling only shadow zebras helps spot tunnel‑vision blacks so the colourist isn’t forced to lift noisy shadows later.
+Use the options to customize the shadow/highlight IRE values, or the target IRE value and band width. Both modes can be active at once and the zebra colors are individually customizable.
 
-## 4  Related Topics
-* [`false-color.md`](false-color.md) – holistic exposure map that complements zebras  
-* [`histogram.md`](../scopes/histogram.md) – numerical distribution to back up zebra decisions
+## Options
+
+{{< option-bar-sprite row="6" >}}
+
+
+| Option | Values | Default | Description |
+|--------|--------|---------|-------------|
+| Mode | `Hi/Lo`/`Band` | Hi/Lo | Selects which zebras mode to configure. |
+| Active | `On`/`Off` | On for Hi/lo, Off for Band | Activates the current zebras mode. |
+| Shadow IRE Threshold | `0`–`50`% | 0% | Pixels *below* this IRE show Shadow zebras. |
+| Highlight IRE Threshold | `50`–`100`% | 100% | Pixels *above* this IRE show Highlight zebras. |
+| Shadow Color | Color | Blue | Tint of shadow stripes. |
+| Highlight Color | Color | Black | Tint of highlight stripes. |
+| IRE Target | `0`-`100`% | 65% | IRE target for band zebras. |
+| Band Width | `1`-`50`% | 5% | Percentage above and below IRE Target to highlight. |
+| Band Color | Color | Black | Tint of the band stripes. |

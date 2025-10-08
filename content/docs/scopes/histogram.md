@@ -3,24 +3,25 @@ title: Histogram
 weight: 30
 ---
 
-## 1  Overview / Purpose & Usage
-The **Histogram** graphs how many pixels sit at each brightness value, offering an at‑a‑glance sanity check that highlights aren’t clipping and shadows aren’t crushed.  Activate it from the Scopes bar; the floating window can be pinched to any size or double‑tapped for full‑screen.
+{{< screenshot name="histogram-floating" alt="Histogram" >}}
 
-## 2  Options & Modes
-| Mode | What It Shows | Typical Usage |
-|------|---------------|---------------|
-| Luma | Y′ only | Quick exposure gauge. |
-| RGB Overlay | Single trace, colour‑coded | Channel balance in one glance. |
-| RGB Stacked | Three individual traces | Pinpoint per‑channel clipping. |
-| Trace Gain | 0 – +12 dB | Boost low‑contrast scenes. |
-| Reticle Colour | Any | Match ambient light. |
-| Background Alpha | 0 – 100 % | Fade scope to minimise distraction. |
+## Overview
 
-Switching between **Luma** and **RGB** is immediate; CineMon maintains history so when you return to RGB you pick up right where you left off.  Increasing **Trace Gain** can reveal subtle mid‑tone detail on Log footage that otherwise hugs the floor.
+The Histogram scope shows the luminance distribution in the image. Three types of histogram displays are available in the non-PRO version of CineMon: **Luma**, **RGB**, and **Stacked**.
 
-## 3  Tips, Best Practices & Use‑Cases
-Full‑screen Histogram mode on a reference OLED makes an unbeatable lighting briefing tool: slide the lights until the histogram bell curve centres around 40–60 IRE, guaranteeing the grade has wiggle room.  Pair RGB Stacked with **Display LUT Bypass** to watch how the grade shifts distribution—useful when teaching new ACs about colour science.
+ *Double-click/tap* in the window to open the histogram settings bar. The **RGB** mode overlays semi-transparent **R**, **G**, and **B** channel traces while the **Stacked** mode displays them one on top of the other. You can adjust the trace's gain, move and resize the histogram window or make it full screen. You can also customize the color and opacity of the reticle and the opacity of the floating window background.
 
-## 4  Related Topics
-* [`waveform.md`](waveform.md) – spatial exposure view  
-* [`zebras.md`](../../tools/zebras.md) – overlay clipping warnings on top of the live picture
+## Settings
+
+{{< screenshot name="histogram-rgb" alt="Histogram" >}}
+
+| Setting | Options | Description |
+|---------|---------|-------------|
+| Display Mode | `Luma`/`RGB`/`Stacked` | Select the Histogram display mode. |
+| Scope Settings | Reticle Color | Customize the color of the reticle. |
+| Trace Gain | Slider | Applies gain to the histogram trace. |
+| Window Settings | Size | Adjust the size of the floating window. |
+| | Opacity | Change the transparency of the floating window background. |
+| Full Screen | - | Make the floating scope full screen. |
+
+> Increasing **Trace Gain** can reveal subtle mid‑tone detail on footage that otherwise hugs the floor.

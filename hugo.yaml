@@ -22,45 +22,29 @@ params:
       # index page by: content | summary | heading | title
       index: content
   footer:
+    displayCopyright: true
     displayPoweredBy: false
 menu:
   main:
     - name: Search
-      weight: 0
+      weight: 1
       params:
         type: search
-    - name: Home
+    - name: APP
       url: https://www.cinemon.app/
-      weight: 1
-    - name: Features
-      url: https://www.cinemon.app/#details-spotmeters
       weight: 2
-    - name: Download
+    - name: DOWNLOAD
       url: https://www.cinemon.app/#purchase
       weight: 3
-    - name: Partners
+    - name: PARTNERS
       url: https://www.cinemon.app/partners/
       weight: 4
-    - name: Design
+    - name: DOCS
+      url: /docs
+      weight: 5
+    - name: CONTACT
       weight: 6
-      url: https://www.cinemon.app/#design
-    - name: Demo
-      weight: 7
-      url: https://www.cinemon.app/#demo
-    - name: Contact
-      weight: 8
       url: https://www.cinemon.app/#footer
-  # sidebar:
-  #   - name: More
-  #     params:
-  #       type: separator
-  #     weight: 1
-  #   - name: "About"
-  #     pageRef: "/about"
-  #     weight: 2
-  #   - name: "Hugo Docs ↗"
-  #     url: "https://gohugo.io/documentation/"
-  #     weight: 3
 caches:
   images:
     dir: :cacheDir/images

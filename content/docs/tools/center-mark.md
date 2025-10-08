@@ -1,21 +1,28 @@
 ---
 title: Center Mark
-weight: 11
+weight: 20
 ---
 
-## 1  Overview / Purpose & Usage
-The Center Mark is the simplest overlay in CineMon: a single cross‑hair (or bull‑seye, depending on the theme) anchored at exact mid‑frame.  Toggle it with the **Center** icon.  Because there is practically nothing to configure, the tool behaves like an *instant flashlight*—tap and there it is, right when the dolly grip asks, “Are we perfectly centred?”
+{{< screenshot name="center-mark" alt="Center Mark Tool" >}}
 
-## 2  Options & Modes
-| Option | Value Type | Range | Function |
+## Overview
+
+This tool overlays a center mark over the image. You can configure the look of the overlay to include crosshairs, a dot, or both. You can also customize the color and opacity, independently from the [**Composition Guides**](/docs/tools/composition-guides).
+
+## Options
+
+{{< option-bar-sprite row="13" >}}
+
+| Option | Values | Default | Description |
 |--------|-----------|-------|----------|
-| Mark Colour | RGBA swatch | Full palette | Hue of the cross‑hair / bull‑seye |
+| Show Crosshairs | `On`/`Off` | `On` | Toggles the visibility of the crosshairs. |
+| Show Center Dot | `On`/`Off` | `Off` | Toggles the visibility of the center dot. |
+| Dot Size | `Small`/`Large` | `Small` | Selects the size of the center dot. |
+| Color | Color & alpha | White, 50% | Controls the color and opacity of the mark. |
 
-Although only colour is available, that tiny choice matters.  A saturated lime is legible on night exteriors, whereas a low‑alpha grey offers guidance without shouting on client monitors.  CineMon saves the exact RGBA value with the current preset, ensuring that your discreet centre point returns each time you reload “Steadicam Pass 2”.
+> As with all other composition tools, the **Center Mark** respect the aspect ratio of the input image and **Framing Guide A**, if enabled.
 
-## 3  Tips, Best Practices & Use‑Cases
-Pair the Center Mark with **Safe Area** rectangles to guarantee motion‑graphics stay dead‑centre *and* within title‑safe boundaries.  VFX supervisors appreciate leaving the mark on while capturing clean plates—the dot makes 2‑D track solves trivial, and because it is generated digitally, you can remove it later by re‑exporting the plate without the overlay.
+## Related Topics
 
-## 4  Related Topics
-* [`safe-area.md`](safe-area.md) – perfect size reference around the same centre  
-* [`frame-overlay.md`](frame-overlay.md) – match plates exactly against the mark
+* [Composition Guides](/docs/tools/composition-guides)
+* [Framing Guides](/docs/tools/framing-guides)

@@ -1,23 +1,30 @@
 ---
 title: Spot Meter
-weight: 27
+weight: 150
 ---
 
-## 1  Overview / Purpose & Usage
-CineMon’s **Spot Meter** places two draggable probes labelled “A” and “B” on the frame and reports their luma in Exposure Value units relative to middle grey.  Tap the **Spot** icon; two translucent circles appear.  Drag them over any pixel—values update in the corner HUD, along with a live A/B ratio that helps lighting techs balance key and fill.
+{{< screenshot name="spot-meters" alt="Spot Meters Tool" >}}
 
-## 2  Options & Modes
-| Option | Value Type | Range / Choices | Use Case |
-|--------|-----------|-----------------|----------|
-| EV Display | Toggle | HUD On / Off | Hides numbers for client feed. |
-| Ratio Display | Toggle | HUD On / Off | Shows difference between probes as a multiplier. |
-| Probe Colour | RGBA swatch | Full palette | Tint of the probe outlines. |
+## Overview
 
-Turning off **EV Display** leaves the rings but removes numbers—handy when the feed routes to big venue screens.  **Ratio Display** simplifies maths: if you want a 1:2 key‑to‑fill, drag B until the ratio reads **2.0 ×**; adjust fill light until satisfied.  Colouring the probes orange or teal makes them pop against both warm and cool scenes.
+With this patent pending tool you can have two virtual spot light meters to accurately measure relative scene luminance using photometric units (F-stops). For this to work properly you need to make sure that the input image gamma curve is properly configured in the [preset settings sidebar](/docs/presets). You can move the spot meter probes around the frame and get an accurate exposure value. Middle gray is initially represented by 0 EV at 18% gray, but can be re-calibrated as needed. Other luminance values are represented by the number of stops over or under middle gray. You can also turn on a contrast ratio guide to show the relative lighting ratio between the two probes.
 
-## 3  Tips, Best Practices & Use‑Cases
-Lighting designers drop Probe A on talent’s key side cheekbone and Probe B on fill side; they dim or brighten the fill light until the ratio hits the look bible—often 1:3 for drama.  For product spots, place a probe on packaging highlights and drag the other over reflective surfaces; the EV delta instantly shows whether the print stays legible.
+## Options
 
-## 4  Related Topics
-* [`false-color.md`](false-color.md) – visual confirmation of numeric EV  
-* [`histogram.md`](../scopes/histogram.md) – full‑frame luma distribution
+{{< option-bar-sprite row="11" >}}
+
+| Option | Values | Default | Description |
+|--------|--------|---------|-------------|
+| Meter A | EVs | - | Shows the scene luminance value in relative stops over/under middle gray. |
+| Set A | EVs | - | Sets the value of middle gray to whatever meter A is measuring. |
+| Meter B | EVs | - | Shows the scene luminance value in relative stops over/under middle gray. |
+| Set B | EVs | - | Sets the value of middle gray to whatever meter B is measuring. |
+| Contrast | Ratio | - | The luminance contrast ratio between meter A and meter B. |
+| Contrast Label | `On`/`Off` | `On` | Controls the visibility of the contrast ratio elastic bar. |
+| 0 EV Luma | Real number | `0.18` | The luma value considered middle gray. |
+| 0 EV Luma Stepper | - | - | Increment/Decrement the value of middle gray by 0.01. |
+| Reset 0 EV | - | - | Resets the value of 0 EV to 0.18. |
+
+## Tips
+
+If you want a 2:1 key‑to‑fill ratio, place meter A over a portion of the image that is illuminated by the key light (e.g. the talent's cheek bone), then drag meter B to the fill side. Adjust lights until the contrast ratio reads **2.0:1**.

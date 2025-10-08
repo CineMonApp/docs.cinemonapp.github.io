@@ -6,54 +6,61 @@ cascade:
   _show_toc: false        # hide auto-generated sidebar on the landing page
 ---
 
-# CineMon: Professional Video and Cinema Camera Monitor
+{{< screenshot name="hero" alt="CineMon Hero Image" >}}
 
-CineMon transforms your iPad or Mac into a professional camera monitor. It is designed for filmmakers, video professionals, content creators and anyone who works with video【739621609687599†L40-L45】.  The app is built to be reliable, battery‑efficient and highly customizable【739621609687599†L330-L343】.
+## What is CineMon?
 
-CineMon includes a wide range of tools to assist with composition, lighting, exposure, looks and quality standards【739621609687599†L30-L34】.  The app uses Apple Metal APIs to maximize performance and minimize battery consumption【739621609687599†L335-L338】, and its features are based on proven color science to deliver accurate results【739621609687599†L330-L334】.
+CineMon is an App that transforms Apple devices into **professional video monitors**, that can be used on camera, DIT carts, video village, or post production. With a beautifully intuitive interface, best-in-class scopes, composition guides, exposure helpers, and creative look tools. CineMon empowers Filmmakers, Cinematographers, Camera Operators, Digital Imaging Technicians, and Content Creators to craft their best images with confidence.
 
-## Getting Started
+CineMon is available on the App Store for FREE and you can use it to monitor all supported video sources without any time restrictions. You can also access basic composition tools and Histogram scopes.
 
-The following pages describe each of CineMon's major tools and features.  Use Hugo's navigation to explore how to use these tools and improve your video workflow.
+Click/Tap the following image to navigate to the App Store and download CineMon:
 
-# Welcome to the CineMon Docs 📽️
+[![App Store Download](/images/docs/AppStore-Download-Black.png "250px")](https://apps.apple.com/us/app/cinemon/id6504142777)
 
-CineMon transforms everyday Apple devices into **field-ready cinema monitors** complete with professional-grade scopes, exposure helpers, and creative look tools.
-This documentation site is designed so you can **dip in for a two-minute answer** or **read cover-to-cover** before your next shoot.
+## CineMon PRO In-App Purchases
 
----
+CineMon's more advanced features can be unlocked with an in-app purchase. The app offers two different models depending on your preferences and needs:
 
-## Quick Start
+- Buy individual {{< pro-pill >}} tool bundles to unlock lifetime access to their included features.
+- Susbscribe to CineMon {{< pro-pill >}} ***Pass*** to unlock **ALL** PRO tools and advanced features.
 
-1. **Install CineMon** from the App Store on iOS/iPadOS or from our website on macOS.
-2. **Connect a camera** via a UVC-compatible interface (e.g. Blackmagic UltraStudio, Elgato CamLink).
-3. **Launch CineMon**—live video appears instantly.
-4. **Tap any toolbar icon** to activate a tool or scope, then drag the icon upward to reveal its option drawer.
-5. **Swipe left / right on the picture** to cycle through built-in configuration presets—or create your own in the Organizer.
+### Use It Everywhere
 
-> **New to video monitoring?**
-> Start with the “Getting Started” page in the **Guides** section to learn the CineMon interface in under five minutes.
+In-App purchases become available on all devices that use the same Apple account. For example, if you purchase the {{< pro-pill >}} Video Monitoring Bundle on one iPad, you can download CineMon on any other iPad or Mac associated with your Apple account and instantly access all the advanced features without additional purchases. This applies to all Bundles and the {{< pro-pill >}} ***Pass*** Subscription.
 
----
+## ⚡️ Lightning Quick Start
+
+1. **Download and Open CineMon** from the iOS or Mac App Store.
+2. **Connect a Video Source (Optional)** using a myriad of connection options.
+3. **Activate a Video Source** to turn it on and display it on the main screen.
+4. **Use the Toolbar Icons** to activate video assist tools.
+
+> Visit the [Getting Stared](getting-started) page for a more comprehensive CineMon overview.
+
+## Documentation Conventions
+
+The CineMon documentation includes screenshots throughout. All screenshots are taken with an 11 inch iPad Pro, unless it is necessary to illustrate platform specific differences. Your screen might not match the screenshots exactly.
+
+In a few cases the CineMon interface differs slighltly between the iPad and Mac versions. When it is necessary to distinguish between the two, an {{< ipad >}} or {{< mac >}} colored label will be used to mark the difference.
+
+Advanced features that require an in-app puchase will be marked with a {{< pro-pill >}} label.
 
 ## Documentation Sections
 
 | Section | What you’ll find inside |
 |---------|------------------------|
-| **Guides** | Installation, hardware compatibility, and first-run tour. |
-| **Tools** | Real-time overlays and image-processing helpers—Grid Overlay, False Color, Zebras, and more. |
-| **Scopes** | Technical instruments—Histogram, Waveform, Vectorscope, Quad Scope View. |
-| **Workflows & UI** | Configuration Presets, Organizer, Gestures & Shortcuts, Settings Sidebar. |
-| **CineMon for Mac** | Desktop-specific tips, window management, and Sidecar setups. |
+| **Top Level Guides** | Detailed guides for special topics. |
+| **Video Assist Tools Reference** | Detailed reference documentation for all video assist tools, including Composition guides, Image adjustments, Exposure tools, and more. |
+| **Scopes Reference** | Detailed reference documentation for video technical instruments: Histogram, Waveform, Vectorscope. |
+| **Release Notes** | Detailed release notes for every CineMon version. |
 
-Each page follows the same structure—**Overview**, **Options**, **Tips**, and **Related Topics**—so you always know where to look for the detail you need.
-
----
+Most pages follow a similar structure: **1. Overview**, **2. Options**, **3. Tips**, and **4. Related Topics**, so you always know where to look for the detail you need.
 
 ## Versioning & Feedback
 
 The documentation tracks the latest **CineMon v1.x** public release.
-If you spot inaccuracies or have suggestions, please open an issue on our [Docs GitHub repo](https://github.com/cinemon/docs) or email **support@cinemon.app**.
+If you spot inaccuracies or have suggestions, please email **support@cinemon.app**.
 
 Happy Monitoring!
-*— The CineMon Team*
+*- The CineMon Team*

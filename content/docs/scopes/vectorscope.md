@@ -3,22 +3,38 @@ title: Vectorscope
 weight: 32
 ---
 
-## 1  Overview / Purpose & Usage
-The **Vectorscope** maps hue and saturation onto a polar graph: angle equals hue, distance equals saturation.  Enable it from the Scopes bar; a circular plot appears, complete with skin‑tone line at roughly 11 degrees.  Drag the scope or full‑screen it for colour‑critical work.
+{{< screenshot name="vectorscope-floating" alt="Vectorscope" >}}
 
-## 2  Options & Modes
-| Option | Choices | Use Case |
-|--------|---------|----------|
-| Display | Mono, Colour | Mono for clean shape; Colour for teaching hue angles. |
-| Targets | Boxes, Polar Grid, ×2 Markers | Guides for legal and oversaturated levels. |
-| Extents | Toggle | Shows envelope of flashing colours. |
-| Trace Brightness | 0 – 100 % | Visibility control. |
+## Overview
 
-Enabling **Targets** reveals broadcast boxes (75 % sat), while **×2 Markers** double their radius, helping judge HDR grade overshoot.  **Extents** is invaluable under concert strobes: saturation spikes are drawn as a faint ghost beyond the steady trace, highlighting where neons risk gamut clipping.
+The **Vectorscope** is a precision color measurement instrument that displays the hue and saturation distribution of pixels in the image. It maps these values onto a polar graph, where angle equals hue and distance from center equals saturation. There are two types of Vectorscope displays: **Luma** and **Colorized**.
 
-## 3  Tips, Best Practices & Use‑Cases
-Place a colour chart in frame; switch to **Colour** mode and twist the camera’s white‑balance until the grey chip sits on the centre dot—instant neutral.  To monitor skin, keep an eye on the 11 degree line: as long as the blob touches it, complexions look natural even with funky lighting.
+*Double-click/tap* in the window to open the Vectorscope settings bar. You can toggle the display of multiple reticle reference guides to aid in calibration, including 75% and 100% saturation targets for BT.709, a skin tone guide, 2x zoom, signal extents, and trace brightness adjustments, in addition to the display controls of the other floating scopes.
 
-## 4  Related Topics
-* [`false-color.md`](../../tools/false-color.md) – exposure colour mapping that complements hue mapping  
-* [`display-lut.md`](../../tools/display-lut.md) – swap LUTs and watch the vectorscope adjust
+{{< screenshot name="vectorscope-extents" alt="Vectorscope Extents" >}}
+
+## Settings
+
+| Setting | Options | Description |
+|---------|---------|-------------|
+| Display Mode | `Mono`/`Colorized` | Select the vectorscope display mode. |
+| Scope Settings | Reticle Color | Customize the color of the reticle. |
+|  | Skin Tone Line | Displays a guide where average skin tones show up in a neutrally lit scene. |
+| | 75% Targets | Shows 75% saturation target guides for Rec.709. |
+| | 100% Targets | Shows 100% saturation target guides for Rec.709. |
+| | Polar Scale | Shows a series of concentric polar guides. |
+| | 2x Zoom | Applies a 2x zoom the the scope trace. |
+| | Extents | Show an envelope of the min/max saturation values that might otherwise be difficult to see on the trace. |
+| | `All`/`Low`/`Mid`/`High` | Optionally filters the trace to show only the colors in the shadow areas (Low), the mid tones, or the highlights. |
+| | Low Range | Defines the IRE value threshhold for the Low filtering. |
+| | High Range | Defines the IRE value threshhold for the High filtering. |
+| Trace Brightness | Slider | Configures the brightness of the vectorscope trace. |
+| Window Settings | Size | Adjust the size of the floating window. |
+| | Opacity | Change the transparency of the floating window background. |
+| Full Screen | - | Make the floating scope full screen. |
+
+> Any signal that goes beyond 100% targets is considered oversaturated and might be illegal under the Rec.709 standard. There are several post production methods for compressing the signal's gamut when that happens.
+
+> Use a standard color chart to aid in calibration of white balance and other camera settings.
+
+{{< screenshot name="vectorscope-fs-options" alt="Vectorscope Settings" >}}

@@ -1,24 +1,47 @@
 ---
-title: Settings Sidebar
-weight: 2
+title: Settings
+weight: 7
 ---
 
-## 1  Overview / Purpose & Usage
-The **Settings Sidebar** groups pipeline‑wide options that affect every preset: incoming signal characteristics, video levels, performance trade‑offs, and UI appearance.  Tap the Sidebar icon, choose **Settings**, and you’ll see four collapsable sections.
+{{< screenshot name="settings-general" alt="Settings General" >}}
 
-## 2  Options & Modes
-| Section | Key Options | Reason to Change |
-|---------|-------------|------------------|
-| Signal | Log Curve (F‑Log, LogC, S‑Log3, HLG…) | Calibrates False Color, Spot Meter, and LUT transforms. |
-| Levels | Data (16‑235) / Full (0‑255) | Match external recorders or LED walls. |
-| Pipeline | Quality ↔ Latency slider | Drag to low latency for focus pulling; quality when image fidelity trumps delay. |
-| UI Brightness | 0 – 100 % | Dim toolbars on night shoots to protect dark adaptation. |
+## Overview
 
-Changing **Log Curve** informs all camera‑aware tools so 18 % grey maps correctly.  **Pipeline** slides between a single‑pass shader (lowest lag) and multi‑pass HDR tone‑mapping (highest fidelity).
+The **Settings** screen ({{< ipad >}})/window ({{< mac >}}) lets you configure global application settings. These settings apply regardless of which Preset is currently active.
 
-## 3  Tips, Best Practices & Use‑Cases
-Always set Signal before rolling; otherwise False Color may highlight middle grey as bright red when you expected green.  At outdoor concerts drag UI Brightness below 15 % so string lights don’t reveal your monitor position to the audience.  For live focus assists, push Latency to minimum—every frame counts when pulling at 120 fps.
+## General
 
-## 4  Related Topics
-* [`spot-meter.md`](tools/spot-meter.md) – uses the selected Log curve
-* [`gestures.md`](gestures.md) – hide toolbars after dimming UI brightness
+These are general settings that control the behavior of certain app features.
+
+{{< screenshot name="settings-mac" alt="Settings Mac" >}}
+
+| Setting | Description |
+|---------|-------------|
+| **Restore last session on startup** | Restores the input source that was active before the app was last closed. |
+| **Auto-play video files** | Automatically plays media when a file is opened. |
+| **Keep sources panel open** | Keeps the sources pop-over panel open after a source is activated from the **Status Toolbar**. This makes it easier to quickly switch between sources/files. |
+| **Use swipe to cycle presets** | Enables the one-finger, horizontal swipe gesture on viewers to cycle through Presets. |
+| **Overlay tool option bars** | Render the tool option drawers over the viewer instead of stacking them under it. |
+| **Max recent files** | Configure the maximum number of recent files the app stores. |
+
+## CineMon PRO
+
+This screen shows the status of the CineMon PRO purchase options from the App Store.
+
+{{< screenshot name="settings-pro" alt="Settings Pro" >}}
+
+## Sources
+
+CineMon integrates with a growing number of partner products that require additional software packages and/or configuration. This screen allows you to configure additional input sources. This is currently only available on {{< ipad >}}.
+
+{{< screenshot name="settings-sources" alt="Settings Sources" >}}
+
+| Setting | Description |
+|---------|-------------|
+| Enable Accsoon SeeMo Devices | Enables detection and integration with Accsoon SeeMo video capture devices. |
+
+## Support
+
+This screen shows app version information and additional legal and contact information.
+
+{{< screenshot name="settings-support" alt="Settings Support" >}}

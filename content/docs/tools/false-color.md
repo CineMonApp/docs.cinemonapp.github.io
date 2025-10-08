@@ -1,23 +1,44 @@
 ---
 title: False Color
-weight: 26
+weight: 140
 ---
 
-## 1  Overview / Purpose & Usage
-False Color remaps luma to rainbow‑style bands so operators *see* exposure instead of deciphering numbers.  Enable via the **FC** icon; CineMon overlays a semi‑transparent legend at screen right and colours pixels according to the active gradient.  Drag the icon up to swap gradients or open the node‑based editor.
+{{< screenshot name="false-color-bmd" alt="False Color Tool" >}}
 
-## 2  Options & Modes
-| Option | Value Type | Range / Choices | Description |
-|--------|-----------|-----------------|-------------|
-| Gradient Library | List | Built‑in presets + user | Choose which colour set to use. |
-| Node Editor | GUI | Drag nodes, pick colours | Redefine what IRE maps to which colour. |
-| Legend | Toggle | On / Off | Shows live IRE‑colour correspondence. |
+## Overview
 
-**Gradient Library** ships with popular maps: Atomos, SmallHD, and a neutral CineMon default.  Duplicating a gradient opens the **Node Editor**, where each node sits at an IRE coordinate.  Drag a node to 41 IRE and colour it green—now middle grey shows bright lime, a cue most operators internalise faster than reading spot numbers.  The **Legend** can be hidden once the team memorises the palette, freeing screen space.
+You can apply a false color scheme to visually assist with exposure and lighting ratios. The tool remaps the image's pixel colors based on their IRE value. The active gradient dictates the mapping from 0 to 100. This helps gauge exposure based on objective IRE values instead of relative scene luminance.
 
-## 3  Tips, Best Practices & Use‑Cases
-Calibrate a gradient to your camera’s log curve: set 95 IRE to hot pink so clipped highlights scream at you.  Export the gradient—CineMon saves a lightweight JSON—and AirDrop to every iPad on set, ensuring DIT, DP, and Client monitor speak the same exposure language.  Pair False Color with **Spot Meter** to cross‑check numeric EV against colour bands for bulletproof exposure decisions.
+Use one of the built-in popular false color schemes, or easily create your own gradients and share them with other CineMon users.
 
-## 4  Related Topics
-* [`zebras.md`](zebras.md) – stripe warnings that complement colour bands  
-* [`spot-meter.md`](spot-meter.md) – numeric EV to validate the colours
+## Custom Gradients
+
+{{< screenshot name="false-color-edit" alt="False Color Editing" >}}
+
+CineMon supports an unlimited number of False Color Schemes, in addition to the built-in ones. To create a new False Color Gradient:
+
+1. Duplicate an existing one (from the Actions menu)
+2. Show the guide (if not already visible)
+3. Tap/Click the Edit button next to the scheme name on the guide
+4. Tap/Click on individual color gradient stops to select them
+5. Drag them left/right to change their IRE value
+6. Tap/Click the color picker to change its color
+7. Add new gradient stops to the left or right by tap/clicking on the plus buttons
+8. Delete the selected gradient by tap/clicking the red X button
+
+## Options
+
+{{< option-bar-sprite row="10" >}}
+
+| Option | Values | Default | Description |
+|--------|--------|---------|-------------|
+| Color Scheme | False Color Gradients | `ARRI - Rec.709` | Choose which false color gradient set to use. |
+| Actions Menu | `Duplicate`/`Delete` | - | You can duplicate the current scheme or delete any of the custom ones (not the built-in ones). |
+| Show Guide | `On`/`Off` | `On` | Toggles the visibility of the Scheme's IRE gradient guide. |
+
+> CineMon ships with popular schemes: ARRI, Atomos, Blackmagic, and a grayscale CineMon default that is a useful starting point for customizing your own.
+
+## Tips
+
+You can calibrate gradients to your specific camera’s log curve. For example, some camera log profiles may render middle gray at 38 IRE. Setting a green color band around that value can simplify getting a neutral exposure when an 18% gray card in the shot, by adjusting lighting or camera settings until the gray card looks green.
+

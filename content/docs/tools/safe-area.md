@@ -1,26 +1,27 @@
 ---
 title: Safe Area
-weight: 12
+weight: 30
 ---
 
-## 1  Overview / Purpose & Usage
-Broadcast engineers invented the **Safe Area** box to stop credits and supers from being chopped off on mismatched domestic televisions.  Today the concept survives in streaming, live‑graphics, and LED‑wall control rooms.  
-In CineMon you enable the overlay by tapping the **Safe** icon; a rectangle pops onto the screen sized to whatever percentage you last used.  Dragging upward reveals the familiar option drawer where you dial in the exact “Safe Percentage,” choose a compliance colour such as legal yellow, and tone down opacity so on‑set talent barely notices it.
+{{< screenshot name="safe-area" alt="Safe Area Tool" >}}
 
-## 2  Options & Modes
-| Option | Value Type | Range / Choices | Explanation |
+## Overview
+
+Broadcast engineers invented the **Safe Area** box to stop credits and supers from being chopped off on mismatched televisions. Today the concept survives in digital workflows.
+
+You can configure the **Safe Area Guide** as a percentage of the main image size. This can be used to indicate a title safe or action safe area. You can also customize its color and opacity.
+
+## Options
+
+{{< option-bar-sprite row="14" >}}
+
+| Option | Values | Default | Description |
 |--------|-----------|-----------------|-------------|
-| Safe % | Integer slider | **50 – 100 %** | Scales the rectangle relative to the *current* aspect ratio. 90 % is Action‑Safe; 80 % is Title‑Safe. |
-| Line Colour | RGBA swatch | Full palette | The stroke colour of the rectangle. Yellow is industry standard. |
-| Opacity | Percentage slider | **0 – 100 %** | Transparency of the rectangle lines. |
+| Safe Area Percentage | `50%`-`100%` | `85%` | Scales the rectangle relative to the *current* aspect ratio. Common percentages are 90% for Action‑Safe and 80% for Title‑Safe. |
+| Guide Colour | Full colour & alpha | White, 50% | Controls the color and opacity of the grid. |
 
-Setting **Safe %** to 90 creates a box whose edges sit at 90 percent of the width and height of whatever crop is active—swap from 16 : 9 to 2.39 : 1 and the box neatly scales down.  If you need two boxes (Action *and* Title) simply store them as separate presets and swipe between them; CineMon’s animated transition makes it clear which is which.
+> As with all other composition tools, the **Composition Guides** respect the aspect ratio of the input image and **Framing Guide A**, if enabled.
 
-Colour and Opacity are rendered using the display‑space primaries, so the yellow you pick on an iPad Pro will match a calibrated OLED fed from CineMon for Mac—critical when the shader wants confidence that graphics won’t flutter in HDR deliverables.
+## Related Topics
 
-## 3  Tips, Best Practices & Use‑Cases
-A clever workflow is to leave Safe Area at 95 % during blocking—this “virtual matte” keeps boom poles and reflector frames just outside audience view—then drop to 90 % after lighting to check that titles still clear.  Because the box is drawn after all scaling, you can even rotate an iPhone to portrait and watch the rectangle reorient live, ensuring vertical deliverables remain compliant.
-
-## 4  Related Topics
-* [`aspect-ratio.md`](aspect-ratio.md) – the crop bars that reshape the safe box  
-* [`grid-overlay.md`](grid-overlay.md) – gives extra guidance lines inside the safe rectangle
+* [Framing Guides](/docs/tools/framing-guides)
