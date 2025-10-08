@@ -11,7 +11,7 @@ params:
     logo:
       path: images/CineMon-Logo-Horz-Dark-Bg-Small.png
       dark: images/CineMon-Logo-Horz-Dark-Bg-Small.png
-      link: /
+      link: https://www.cinemon.app
       width: 150
       height: 37.5
   # Search
