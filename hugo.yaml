@@ -48,3 +48,6 @@ menu:
 caches:
   images:
     dir: :cacheDir/images
+services:
+  googleAnalytics:
+    ID: GTM-W5RFBKS9
